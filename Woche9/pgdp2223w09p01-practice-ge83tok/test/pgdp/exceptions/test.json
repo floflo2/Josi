@@ -1,0 +1,135 @@
+[ {
+  "class" : {
+    "name" : "IllegalCharException",
+    "package" : "pgdp.exceptions",
+    "superclass" : "Exception"
+  },
+  "methods" : [ {
+    "name" : "toString",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  } ],
+  "attributes" : [ {
+    "name" : "used",
+    "modifiers" : [ "private", "final" ],
+    "type" : "char"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "char" ]
+  } ]
+}, {
+  "class" : {
+    "name": "NotEnoughLetterException",
+    "package": "pgdp.exceptions",
+    "superclass": "NotEnoughException"
+  },
+  "methods" : [ {
+    "name" : "toString",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "int", "int" ]
+  } ]
+}, {
+  "class" : {
+    "name": "NotLongEnoughException",
+    "package": "pgdp.exceptions",
+    "superclass": "NotEnoughException"
+  },
+  "methods" : [ {
+    "name" : "toString",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "int", "int" ]
+  } ]
+}, {
+  "class" : {
+    "name": "NotEnoughLowerCaseException",
+    "package": "pgdp.exceptions",
+    "superclass": "NotEnoughLetterException"
+  },
+  "methods" : [ {
+    "name" : "toString",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "int", "int" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "NotEnoughException",
+    "package" : "pgdp.exceptions",
+    "superclass": "Exception"
+  },
+  "methods" : [ {
+    "name" : "toString",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  }
+  ],
+  "attributes": [
+    {
+      "name": "is",
+      "modifiers": [
+        "final",
+        "private"
+      ],
+      "type": "int"
+    },
+    {
+      "name": "should",
+      "modifiers": [
+        "final",
+        "private"
+      ],
+      "type": "int"
+    }
+  ],
+  "constructors": [
+    {
+      "modifiers": [
+        "public"
+      ],
+      "parameters": [
+        "int",
+        "int"
+      ]
+    }
+  ]
+},
+  {
+    "class": {
+      "name": "NotEnoughUpperCaseException",
+      "package": "pgdp.exceptions",
+      "superclass": "NotEnoughLetterException"
+    },
+    "methods": [
+      {
+        "name": "toString",
+        "modifiers": [
+          "public"
+        ],
+        "returnType": "String"
+      }
+    ],
+    "constructors": [
+      {
+        "modifiers": [
+          "public"
+        ],
+        "parameters": [
+          "int",
+          "int"
+        ]
+      }
+    ]
+  }
+]

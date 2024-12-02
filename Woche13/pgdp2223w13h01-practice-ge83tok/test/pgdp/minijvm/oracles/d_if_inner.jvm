@@ -1,0 +1,15 @@
+
+//     if (b < a) {
+LOAD 1
+LOAD 0
+LESS
+FJUMP else_branch
+
+//         a = a - b;
+LOAD 0
+LOAD 1
+SUB
+STORE 0
+
+//     } else {
+JUMP end_if

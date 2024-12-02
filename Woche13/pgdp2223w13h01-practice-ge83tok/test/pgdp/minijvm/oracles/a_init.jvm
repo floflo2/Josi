@@ -1,0 +1,10 @@
+// int a, b, r;
+ALLOC 3
+
+// a = read();
+READ
+STORE 0
+
+// b = read();
+READ
+STORE 1

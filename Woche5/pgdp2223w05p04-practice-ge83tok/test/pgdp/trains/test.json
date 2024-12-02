@@ -1,0 +1,145 @@
+[ {
+  "class" : {
+    "name" : "Train",
+    "package" : "pgdp.trains"
+  },
+  "methods" : [ {
+    "name" : "getLocomotive",
+    "modifiers" : [ "public" ],
+    "returnType" : "Locomotive"
+  }, {
+    "name" : "getCarriages",
+    "modifiers" : [ "public" ],
+    "returnType" : "Carriage[]"
+  }, {
+    "name" : "setLocomotive",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Locomotive" ],
+    "returnType" : "void"
+  }, {
+    "name" : "appendCarriage",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Carriage" ],
+    "returnType" : "void"
+  }, {
+    "name" : "getNumberOfPassengers",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "getTotalWeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  } ],
+  "attributes" : [ {
+    "name" : "locomotive",
+    "modifiers" : [ "private" ],
+    "type" : "Locomotive"
+  }, {
+    "name" : "carriages",
+    "modifiers" : [ "private" ],
+    "type" : "Carriage[]"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Locomotive" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Carriage",
+    "package" : "pgdp.trains"
+  },
+  "methods" : [ {
+    "name" : "isRestaurantCarriage",
+    "modifiers" : [ "public" ],
+    "returnType" : "boolean"
+  }, {
+    "name" : "getEmptyWeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "getPassengers",
+    "modifiers" : [ "public" ],
+    "returnType" : "Person[]"
+  }, {
+    "name" : "boardPeople",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Person[]" ],
+    "returnType" : "void"
+  } ],
+  "attributes" : [ {
+    "name" : "isRestaurantCarriage",
+    "modifiers" : [ "private" ],
+    "type" : "boolean"
+  }, {
+    "name" : "emptyWeight",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  }, {
+    "name" : "passengers",
+    "modifiers" : [ "private" ],
+    "type" : "Person[]"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "boolean", "int" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Locomotive",
+    "package" : "pgdp.trains"
+  },
+  "methods" : [ {
+    "name" : "getEmptyWeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "getDriver",
+    "modifiers" : [ "public" ],
+    "returnType" : "Person"
+  }, {
+    "name" : "setDriver",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Person" ],
+    "returnType" : "void"
+  } ],
+  "attributes" : [ {
+    "name" : "emptyWeight",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  }, {
+    "name" : "driver",
+    "modifiers" : [ "private" ],
+    "type" : "Person"
+  }],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "int", "Person" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Person",
+    "package" : "pgdp.trains"
+  },
+  "methods" : [ {
+    "name" : "getWeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "getName",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  } ],
+  "attributes" : [ {
+    "name" : "weight",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  }, {
+    "name" : "name",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "int", "String" ]
+  } ]
+} ]

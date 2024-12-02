@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://artemis.in.tum.de/courses/201/exercises/8494 -->
+<html class="no-js" lang="de" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Aufgabendetails</title>
+        <meta name="description" content="Artemis: Interactive Learning with Individual Feedback">
+        <meta name="google" content="notranslate">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <!--<base href="/">--><base href=".">
+        <style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="icon" type="image/svg+xml" sizes="any" href="https://artemis.in.tum.de/logo/favicon.svg">
+        <link rel="manifest" href="https://artemis.in.tum.de/manifest.webapp">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://artemis.in.tum.de/logo/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://artemis.in.tum.de/logo/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="https://artemis.in.tum.de/logo/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://artemis.in.tum.de/logo/favicon-16x16.png">
+        <link rel="mask-icon" href="https://artemis.in.tum.de/logo/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="Artemis">
+        <meta name="application-name" content="Artemis">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <!-- jhipster-needle-add-resources-to-root - JHipster will add new resources here -->
+    <link rel="stylesheet" href="./Aufgabendetails_files/styles.3d5e849acc26adaf.css"><style>[_nghost-lgj-c103]{width:100vw;height:100vh;position:fixed;top:0;left:0;pointer-events:none;display:flex;flex-direction:column;align-items:flex-end;z-index:100000;padding:20px;overflow:hidden}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]{width:100%;overflow:visible;position:relative;margin-bottom:15px}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .alert-inner[_ngcontent-lgj-c103]{width:100%;pointer-events:all;min-height:70px;position:relative;border:1px solid;padding:15px 20px;border-radius:.3rem;box-shadow:var(--artemis-alerts-shadow) 0 5px 15px;flex:0 auto;display:flex;justify-content:space-between;align-items:center}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .alert-inner[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103]{display:flex;gap:15px;align-items:center;justify-content:center}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .alert-inner[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103]   .message[_ngcontent-lgj-c103]{white-space:break-spaces;text-overflow:ellipsis}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .alert-inner[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103]   .ng-fa-icon[_ngcontent-lgj-c103]{animation:.4s _ngcontent-lgj-c103_highlight;animation-delay:.6s;animation-iteration-count:3}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .alert-inner[_ngcontent-lgj-c103]   .time-bar[_ngcontent-lgj-c103]{position:absolute;bottom:0;left:0;height:4px;border-radius:0 3px 3px;animation:_ngcontent-lgj-c103_scale-down cubic-bezier(.79,.98,.79,.98)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .info[_ngcontent-lgj-c103]{color:var(--artemis-alert-info-color);background-color:var(--artemis-alert-info-background);border-color:var(--artemis-alert-info-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .info[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103] > .ng-fa-icon[_ngcontent-lgj-c103]{color:var(--artemis-alert-info-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .info[_ngcontent-lgj-c103]   .time-bar[_ngcontent-lgj-c103]{background-color:var(--artemis-alert-info-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .danger[_ngcontent-lgj-c103]{color:var(--artemis-alert-danger-color);background-color:var(--artemis-alert-danger-background);border-color:var(--artemis-alert-danger-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .danger[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103] > .ng-fa-icon[_ngcontent-lgj-c103]{color:var(--artemis-alert-danger-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .danger[_ngcontent-lgj-c103]   .time-bar[_ngcontent-lgj-c103]{background-color:var(--artemis-alert-danger-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .warning[_ngcontent-lgj-c103]{color:var(--artemis-alert-warning-color);background-color:var(--artemis-alert-warning-background);border-color:var(--artemis-alert-warning-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .warning[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103] > .ng-fa-icon[_ngcontent-lgj-c103]{color:var(--artemis-alert-warning-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .warning[_ngcontent-lgj-c103]   .time-bar[_ngcontent-lgj-c103]{background-color:var(--artemis-alert-warning-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .success[_ngcontent-lgj-c103]{color:var(--artemis-alert-success-color);background-color:var(--artemis-alert-success-background);border-color:var(--artemis-alert-success-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .success[_ngcontent-lgj-c103]   .left[_ngcontent-lgj-c103] > .ng-fa-icon[_ngcontent-lgj-c103]{color:var(--artemis-alert-success-border)}[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103]   .success[_ngcontent-lgj-c103]   .time-bar[_ngcontent-lgj-c103]{background-color:var(--artemis-alert-success-border)}[_nghost-lgj-c103]   .dismiss-all[_ngcontent-lgj-c103]{width:100%;margin-bottom:15px}[_nghost-lgj-c103]   .dismiss-all[_ngcontent-lgj-c103]   .btn[_ngcontent-lgj-c103]{pointer-events:all;border-radius:.3rem;box-shadow:var(--artemis-alerts-shadow) 0 5px 15px;width:100%}@media screen and (min-width: 800px){[_nghost-lgj-c103]   .alert-wrap[_ngcontent-lgj-c103], [_nghost-lgj-c103]   .dismiss-all[_ngcontent-lgj-c103]{width:75%;max-width:800px}}@keyframes _ngcontent-lgj-c103_highlight{0%,to{transform:scale(1)}50%{transform:scale(1.3)}}@keyframes _ngcontent-lgj-c103_scale-down{0%{width:100%}to{width:0}}</style><style>.box[_ngcontent-lgj-c104]{position:relative;max-width:0;width:90%;height:0;background:#fff;box-shadow:0 0 15px #0000001a}.ribbon[_ngcontent-lgj-c104]{z-index:9999;width:200px;height:200px;overflow:hidden;white-space:nowrap;pointer-events:none;position:absolute;opacity:.75}.ribbon[_ngcontent-lgj-c104]   span[_ngcontent-lgj-c104]{position:absolute;display:block;width:300px;padding:10px 0;background-color:#aa000080;box-shadow:0 5px 10px #0000001a;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.2);text-align:center}.ribbon-top-left[_ngcontent-lgj-c104]{top:-20px;left:-20px}.ribbon-top-left[_ngcontent-lgj-c104]:before, .ribbon-top-left[_ngcontent-lgj-c104]:after{border-top-color:transparent;border-left-color:transparent}.ribbon-top-left[_ngcontent-lgj-c104]   span[_ngcontent-lgj-c104]{right:-25px;top:45px;transform:rotate(-45deg)}</style><style>.notification-popup-container[_ngcontent-lgj-c106]{position:fixed;bottom:20px;right:0;z-index:998}.notification-popup-container[_ngcontent-lgj-c106] > div[_ngcontent-lgj-c106]{cursor:pointer;position:relative;color:#aaa;display:flex;max-width:360px;margin-bottom:10px;background-color:#292929;border-top-left-radius:5px;border-bottom-left-radius:5px;box-shadow:0 3px 5px #00000080}.notification-popup-container[_ngcontent-lgj-c106] > div.hide[_ngcontent-lgj-c106]{display:none}.icon-container[_ngcontent-lgj-c106]{font-size:1.75rem;color:#3e8acc}h5[_ngcontent-lgj-c106]{color:#eaeaea}button[_ngcontent-lgj-c106]{font-size:1.15rem;color:#aaa;position:absolute;top:14px;right:24px;border:0;background-color:transparent}</style><style>[_nghost-lgj-c105]{display:block;position:absolute;left:0;bottom:0;background-color:var(--footer-bg);padding:.5rem 1rem;width:100%}[_nghost-lgj-c105]   .footer-text[_ngcontent-lgj-c105]{font-weight:400;font-size:small}[_nghost-lgj-c105]   .footer-git-wrapper[_ngcontent-lgj-c105]{display:flex}[_nghost-lgj-c105]   .footer-git-wrapper[_ngcontent-lgj-c105]   .footer-git[_ngcontent-lgj-c105]{font-size:12px;margin-right:5px;margin-bottom:5px}</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+[touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+[touch-action~="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+[touch-action~="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+[touch-action~="pan-up"]{ -ms-touch-action: pan-up; touch-action: pan-up; }
+[touch-action~="pan-down"]{ -ms-touch-action: pan-down; touch-action: pan-down; }
+[touch-action~="pan-left"]{ -ms-touch-action: pan-left; touch-action: pan-left; }
+[touch-action~="pan-right"]{ -ms-touch-action: pan-right; touch-action: pan-right; }
+</style><style id="ace_editor.css">.ace_editor {position: relative;overflow: hidden;font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;direction: ltr;text-align: left;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;cursor: text;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;min-width: 100%;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4wFAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir+Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/QRzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6eju5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99Nfg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78DPokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMgHFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIOzgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kfR+MMMDGOQAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAABPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf////e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIAAAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neXe5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYEwboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJaUrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLgupWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDbMegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");}.ace_scrollbar {position: absolute;right: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-v{overflow-x: hidden;overflow-y: scroll;top: 0;}.ace_scrollbar-h {overflow-x: scroll;overflow-y: hidden;left: 0;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;-ms-user-select: text;-moz-user-select: text;-webkit-user-select: text;user-select: text;white-space: pre!important;}.ace_text-input.ace_composition {background: inherit;color: inherit;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;word-wrap: normal;white-space: pre;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid;transform: translatez(0);}.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-webkit-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMCIMAAI3INmXiwf2YAAAAASUVORK5CYII=");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC");}.ace_tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;max-width: 100%;padding: 3px 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;pointer-events: none;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKsQ0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg==");}.ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQmCCXA==");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-webkit-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-webkit-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}.ace_br1 {border-top-left-radius    : 3px;}.ace_br2 {border-top-right-radius   : 3px;}.ace_br3 {border-top-left-radius    : 3px; border-top-right-radius:    3px;}.ace_br4 {border-bottom-right-radius: 3px;}.ace_br5 {border-top-left-radius    : 3px; border-bottom-right-radius: 3px;}.ace_br6 {border-top-right-radius   : 3px; border-bottom-right-radius: 3px;}.ace_br7 {border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px;}.ace_br8 {border-bottom-left-radius : 3px;}.ace_br9 {border-top-left-radius    : 3px; border-bottom-left-radius:  3px;}.ace_br10{border-top-right-radius   : 3px; border-bottom-left-radius:  3px;}.ace_br11{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-left-radius:  3px;}.ace_br12{border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br13{border-top-left-radius    : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br14{border-top-right-radius   : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br15{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;}.ace_text-input-ios {position: absolute !important;top: -100000px !important;left: -100000px !important;}
+/*# sourceURL=ace/css/ace_editor.css */</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;color: black;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}
+/*# sourceURL=ace/css/ace-tm */</style><style>    .error_widget_wrapper {        background: inherit;        color: inherit;        border:none    }    .error_widget {        border-top: solid 2px;        border-bottom: solid 2px;        margin: 5px 0;        padding: 10px 40px;        white-space: pre-wrap;    }    .error_widget.ace_error, .error_widget_arrow.ace_error{        border-color: #ff5a5a    }    .error_widget.ace_warning, .error_widget_arrow.ace_warning{        border-color: #F1D817    }    .error_widget.ace_info, .error_widget_arrow.ace_info{        border-color: #5a5a5a    }    .error_widget.ace_ok, .error_widget_arrow.ace_ok{        border-color: #5aaa5a    }    .error_widget_arrow {        position: absolute;        border: solid 5px;        border-top-color: transparent!important;        border-right-color: transparent!important;        border-left-color: transparent!important;        top: -5px;    }</style><style>.ace_snippet-marker {    -moz-box-sizing: border-box;    box-sizing: border-box;    background: rgba(194, 193, 208, 0.09);    border: 1px dotted rgba(211, 208, 235, 0.62);    position: absolute;}</style><style>.ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line {    background-color: #CAD6FA;    z-index: 1;}.ace_editor.ace_autocomplete .ace_line-hover {    border: 1px solid #abbffe;    margin-top: -1px;    background: rgba(233,233,253,0.4);}.ace_editor.ace_autocomplete .ace_line-hover {    position: absolute;    z-index: 2;}.ace_editor.ace_autocomplete .ace_scroller {   background: none;   border: none;   box-shadow: none;}.ace_rightAlignedText {    color: gray;    display: inline-block;    position: absolute;    right: 4px;    text-align: right;    z-index: -1;}.ace_editor.ace_autocomplete .ace_completion-highlight{    color: #000;    text-shadow: 0 0 0.01em;}.ace_editor.ace_autocomplete {    width: 280px;    z-index: 200000;    background: #fbfbfb;    color: #444;    border: 1px lightgray solid;    position: fixed;    box-shadow: 2px 3px 5px rgba(0,0,0,.2);    line-height: 1.4;}</style><style type="text/css"></style><style>.tab-bar-exercise-details[_ngcontent-lgj-c147]{flex-wrap:wrap}.tab-bar-exercise-details[_ngcontent-lgj-c147]   .instructor-actions[_ngcontent-lgj-c147]{width:100%;flex-basis:100%;justify-content:flex-end}.course-body-container[_ngcontent-lgj-c147]{position:relative}.refresh-overlay[_ngcontent-lgj-c147]{position:absolute;inset:0;display:flex;justify-content:center;align-items:flex-start;opacity:0;pointer-events:none;transition:.1s ease-out opacity}.refresh-overlay.active[_ngcontent-lgj-c147]{background-color:var(--overview-refresh-overlay-bg-color);opacity:1;pointer-events:auto;transition:.2s ease-in opacity}.refresh-overlay[_ngcontent-lgj-c147]   .ng-fa-icon[_ngcontent-lgj-c147]{position:relative;top:calc(47.5vh - 150px);transform:translateY(-50%);color:var(--overview-refresh-overlay-color)}.back-button[_ngcontent-lgj-c147]{cursor:pointer}.current-week-row[_ngcontent-lgj-c147]    >div{background-color:var(--overview-light-primary-background-color)}.statistic-summary[_ngcontent-lgj-c147]{margin-top:25px}.statistic-summary[_ngcontent-lgj-c147]   .chart-container[_ngcontent-lgj-c147]{display:inline-flex;align-items:center;justify-content:flex-end;margin-bottom:20px}.statistic-summary[_ngcontent-lgj-c147]   .chart-container[_ngcontent-lgj-c147]   .chart-text[_ngcontent-lgj-c147]{margin-right:130px;position:absolute}.statistic-summary[_ngcontent-lgj-c147]   .color-legend-container[_ngcontent-lgj-c147]{margin-bottom:40px}.statistic-summary[_ngcontent-lgj-c147]   .color-legend-container[_ngcontent-lgj-c147]   .color-legend-entry[_ngcontent-lgj-c147]{display:inline-flex;align-items:center;width:100%}.exercise-row-container[_ngcontent-lgj-c147]   .control-label[_ngcontent-lgj-c147]{cursor:pointer}.exercise-row-container[_ngcontent-lgj-c147]   .collapsed[_ngcontent-lgj-c147]{margin-top:1rem;border-bottom:1px solid var(--overview-light-border-color)}.course-information[_ngcontent-lgj-c147]{padding-top:29px}.course-information[_ngcontent-lgj-c147]   .exercise-panel[_ngcontent-lgj-c147]   .row.has-exercises[_ngcontent-lgj-c147]{cursor:pointer;border-radius:3px}.course-information[_ngcontent-lgj-c147]   .exercise-panel[_ngcontent-lgj-c147]   .row.has-exercises[_ngcontent-lgj-c147]:hover{background-color:var(--overview-light-background-color)}.course-information[_ngcontent-lgj-c147]   .exercise-panel[_ngcontent-lgj-c147]   .row.has-exercises[_ngcontent-lgj-c147]:hover   .icon[_ngcontent-lgj-c147]{color:var(--primary)}.exercise-divider[_ngcontent-lgj-c147]{height:0;width:100%;margin:1rem 0 .5rem;border-top:1px solid var(--overview-light-border-color)}.color-indicator[_ngcontent-lgj-c147]{height:20px;width:20px;background-color:#0f6ab4;position:relative;top:-4px;margin-right:5px;border-radius:3px}canvas#complete-chart[_ngcontent-lgj-c147]{z-index:99}.dev-button[_ngcontent-lgj-c147]{text-align:left;color:#fff;background-color:#3e8acc;border:none;border-radius:1px}.dev-button[_ngcontent-lgj-c147]:hover{background-color:#0f6ab4}.dev-button[_ngcontent-lgj-c147]:active{box-shadow:0 2px 0 var(--artemis-dark)}.dev-button[_ngcontent-lgj-c147]:disabled{background-color:gray}.btn-primary[_ngcontent-lgj-c147], .btn-primary[_ngcontent-lgj-c147]:hover, .btn-primary[_ngcontent-lgj-c147]:disabled, .btn-info[_ngcontent-lgj-c147], .btn-info[_ngcontent-lgj-c147]:hover, .btn-success[_ngcontent-lgj-c147], .btn-success[_ngcontent-lgj-c147]:hover{color:#fff}@media (max-width: 768px){.col-12[_ngcontent-lgj-c147]{width:100%!important}}.fadeInIcon[_ngcontent-lgj-c147]{animation:_ngcontent-lgj-c147_fadeIn .3s;animation-iteration-count:initial}@keyframes _ngcontent-lgj-c147_fadeIn{0%{opacity:0}50%{opacity:.5}to{visibility:visible;opacity:1}}</style><style>.tab-bar[_ngcontent-lgj-c147]{display:flex;align-items:center;min-height:60px;margin:0 -1rem;padding:.5rem 1rem;border-bottom:1px solid var(--overview-border-color)}.tab-bar[_ngcontent-lgj-c147]   .tab-item[_ngcontent-lgj-c147]{cursor:pointer;margin:0 .5em}.tab-bar[_ngcontent-lgj-c147]   .tab-item[_ngcontent-lgj-c147]:first-child{margin-left:0}.tab-bar[_ngcontent-lgj-c147]   .tab-item[_ngcontent-lgj-c147]:last-child{margin-right:0}.tab-bar[_ngcontent-lgj-c147]   .tab-item.active[_ngcontent-lgj-c147]{box-shadow:0 2px 0 var(--overview-tab-active-border-color)}.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child{display:flex;align-items:center;justify-content:space-between;gap:.5rem}.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child > div[_ngcontent-lgj-c147]:first-child{display:flex;align-items:center}.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child   .controls[_ngcontent-lgj-c147]{display:flex;align-items:center;gap:.5rem;margin-right:3px;margin-left:3px}.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child.no-indent{justify-content:start}.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child.no-indent   .controls[_ngcontent-lgj-c147]{padding-right:.5rem;margin-right:0}@media screen and (max-width: 991px){.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child{flex-wrap:wrap}.tab-bar-overview[_ngcontent-lgj-c147] > div[_ngcontent-lgj-c147]:first-child   .controls[_ngcontent-lgj-c147]{padding-right:.5rem;margin-right:0}}</style><style>a[_ngcontent-lgj-c100]:not(.btn):hover{text-decoration:none!important}#navbar-icon-menu[_ngcontent-lgj-c100]{display:flex;flex-direction:row;gap:30px;justify-content:flex-end;color:var(--navbar-dark-color);align-items:center;transition:color .2s;padding:0 10px 0 20px}#navbar-icon-menu[_ngcontent-lgj-c100] > *[_ngcontent-lgj-c100]:hover{color:var(--bs-body-color)}#navbar-icon-menu.evenly[_ngcontent-lgj-c100]{justify-content:space-evenly;gap:5px;padding-left:10px;padding-right:10px}#navbar-icon-menu.in-menu[_ngcontent-lgj-c100]{padding-top:5px;padding-bottom:5px}#account-menu[_ngcontent-lgj-c100]{padding:0}.jh-navbar[_ngcontent-lgj-c100]{background-color:var(--artemis-dark);white-space:nowrap;padding:.2em 1rem;color:var(--navbar-dark-color)}.jh-navbar[_ngcontent-lgj-c100]   .profile-image[_ngcontent-lgj-c100]{margin:-10px 0;height:40px;width:40px;border-radius:50%}.jh-navbar[_ngcontent-lgj-c100]   .dropdown-item.active[_ngcontent-lgj-c100], .jh-navbar[_ngcontent-lgj-c100]   .dropdown-item.active[_ngcontent-lgj-c100]:focus, .jh-navbar[_ngcontent-lgj-c100]   .dropdown-item.active[_ngcontent-lgj-c100]:hover{background-color:var(--navbar-bg)}.jh-navbar[_ngcontent-lgj-c100]   .dropdown-toggle[_ngcontent-lgj-c100]:after{margin-left:.15em}.jh-navbar[_ngcontent-lgj-c100]   ul.navbar-nav[_ngcontent-lgj-c100]{flex-direction:row;padding-right:10px}.jh-navbar[_ngcontent-lgj-c100]   ul.navbar-nav[_ngcontent-lgj-c100]   .nav-item[_ngcontent-lgj-c100]{margin-left:1.5rem}.jh-navbar[_ngcontent-lgj-c100]   ul.navbar-nav.vertical[_ngcontent-lgj-c100]{flex-direction:column}@media screen and (min-width: 480px){.jh-navbar[_ngcontent-lgj-c100]   ul.navbar-nav[_ngcontent-lgj-c100]:not(.vertical){justify-content:flex-end}.jh-navbar[_ngcontent-lgj-c100]   ul.navbar-nav[_ngcontent-lgj-c100]:not(.vertical)   .nav-item[_ngcontent-lgj-c100]:first-child{margin-left:0}}.jh-navbar[_ngcontent-lgj-c100]   .nav-link[_ngcontent-lgj-c100]{color:var(--navbar-dark-color)}.jh-navbar[_ngcontent-lgj-c100]   .nav-link[_ngcontent-lgj-c100]:hover{color:var(--link-color)}.jh-navbar[_ngcontent-lgj-c100]   a.nav-link[_ngcontent-lgj-c100]{font-weight:400}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]{display:flex;flex:1;align-items:center;flex-wrap:nowrap;gap:10px;height:50px}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .navbar-brand[_ngcontent-lgj-c100]{display:flex;gap:10px;padding:10px 15px;align-items:center;margin-right:0;height:100%}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .navbar-brand[_ngcontent-lgj-c100]   img[_ngcontent-lgj-c100]{height:30px;vertical-align:middle;margin-right:10px}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .navbar-brand[_ngcontent-lgj-c100]   .navbar-version[_ngcontent-lgj-c100]{padding-top:3px;font-size:10px;font-weight:700;color:var(--navbar-foreground)}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .navbar-brand[_ngcontent-lgj-c100]   .navbar-title[_ngcontent-lgj-c100]{font-weight:700}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .navbar-brand[_ngcontent-lgj-c100]:hover{color:var(--navbar-foreground)}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .indicators[_ngcontent-lgj-c100]{display:flex;align-items:center;flex-wrap:nowrap;font-size:18px;height:50px;gap:10px;justify-content:flex-start;flex:1}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .toggler-wrapper[_ngcontent-lgj-c100]{display:flex;justify-content:flex-end;align-items:center}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .toggler-wrapper[_ngcontent-lgj-c100]   .toggler[_ngcontent-lgj-c100]{color:var(--navbar-foreground);font-size:1.5em;padding:10px}.jh-navbar[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .toggler-wrapper[_ngcontent-lgj-c100]   .toggler[_ngcontent-lgj-c100]:hover{color:var(--navbar-foreground)}.jh-navbar.expanded[_ngcontent-lgj-c100]{flex-direction:row;flex-wrap:nowrap;justify-content:flex-start}.jh-navbar.expanded[_ngcontent-lgj-c100]   .navbar-nav[_ngcontent-lgj-c100]{flex-direction:row}.jh-navbar.expanded[_ngcontent-lgj-c100]   .navbar-nav[_ngcontent-lgj-c100]   .nav-link[_ngcontent-lgj-c100]{padding-right:.5rem;padding-left:.5rem}.jh-navbar.expanded[_ngcontent-lgj-c100]   .navbar-collapse[_ngcontent-lgj-c100]{display:flex!important}.jh-navbar.expanded[_ngcontent-lgj-c100]   .jh-logo-container[_ngcontent-lgj-c100]   .toggler-wrapper[_ngcontent-lgj-c100]{display:none}.dropdown-menu-index[_ngcontent-lgj-c100]{z-index:2000}.breadcrumb-container[_ngcontent-lgj-c100]{background-color:var(--navbar-breadcrumb-background);overflow:auto;margin-left:-15px;min-height:.5rem}.breadcrumb-container[_ngcontent-lgj-c100]   .breadcrumb[_ngcontent-lgj-c100]{color:var(--navbar-breadcrumb-color);background-color:var(--navbar-breadcrumb-background);margin-left:1rem;margin-bottom:0;padding:5px 16px}.breadcrumb-container[_ngcontent-lgj-c100]   .breadcrumb[_ngcontent-lgj-c100]   .breadcrumb-link[_ngcontent-lgj-c100]{font-weight:300;display:inline}.breadcrumb-container[_ngcontent-lgj-c100]   .breadcrumb-item[_ngcontent-lgj-c100]:not(:first-of-type):before{content:">"}@media not all and (-webkit-min-device-pixel-ratio: 0),not all and (min-resolution: .001dpcm){@supports (-webkit-appearance: none){.breadcrumb-item[_ngcontent-lgj-c100]:first-of-type   .breadcrumb-link[_ngcontent-lgj-c100]{display:block!important}}}</style><style>[_nghost-lgj-c93]{padding:0}.connection-warning[_ngcontent-lgj-c93]{color:red;position:relative;max-width:0;transform:scale(0);margin:0;cursor:pointer;transition:all .3s}.connection-warning.disconnected[_ngcontent-lgj-c93]{max-width:50px;transform:scale(1);margin:0 12px}.connection-warning.disconnected[_ngcontent-lgj-c93]   .ng-fa-icon[_ngcontent-lgj-c93]:first-child{transform:translate(10px)}#pulse-icon[_ngcontent-lgj-c93]{position:absolute;left:0;animation:_ngcontent-lgj-c93_pulse 1s;animation-iteration-count:60;transform-origin:center;pointer-events:none}@keyframes _ngcontent-lgj-c93_pulse{0%{transform:scale(1);opacity:1}70%,to{transform:scale(2);opacity:0}}</style><style>.system-notification[_ngcontent-lgj-c98]{width:100%;padding:5px 20px 5px 10px;display:flex;gap:10px;align-items:center;animation:.25s ease _ngcontent-lgj-c98_init-max-height;animation-fill-mode:both;transform-origin:top}.system-notification.info[_ngcontent-lgj-c98]{color:var(--artemis-alert-info-color);background:var(--artemis-alert-info-background)}.system-notification.info[_ngcontent-lgj-c98]   .ng-fa-icon[_ngcontent-lgj-c98]{color:var(--artemis-alert-info-border)}.system-notification.warning[_ngcontent-lgj-c98]{color:var(--artemis-alert-warning-color);background:var(--artemis-alert-warning-background)}.system-notification.warning[_ngcontent-lgj-c98]   .ng-fa-icon[_ngcontent-lgj-c98]{color:var(--artemis-alert-warning-border)}.system-notification[_ngcontent-lgj-c98]   .notification-text[_ngcontent-lgj-c98]{flex:1;display:flex;justify-content:center;align-items:center;flex-wrap:wrap}.system-notification[_ngcontent-lgj-c98]   .notification-text[_ngcontent-lgj-c98]   .notification-title[_ngcontent-lgj-c98]{font-weight:700;white-space:nowrap;margin:0 10px;display:flex;justify-content:center;align-items:center;gap:10px}.system-notification[_ngcontent-lgj-c98]   .notification-text[_ngcontent-lgj-c98]   .notification-title[_ngcontent-lgj-c98]   .ng-fa-icon[_ngcontent-lgj-c98]{font-size:20px;animation-delay:.2s}.system-notification[_ngcontent-lgj-c98]   .notification-text[_ngcontent-lgj-c98]   .notification-title[_ngcontent-lgj-c98] > span[_ngcontent-lgj-c98]{animation-delay:.28s}.system-notification[_ngcontent-lgj-c98]   .notification-text[_ngcontent-lgj-c98]   .notification-content[_ngcontent-lgj-c98]{animation-delay:.36s}.system-notification[_ngcontent-lgj-c98]   .left-slide-in[_ngcontent-lgj-c98]{animation:.5s cubic-bezier(.16,1,.3,1) _ngcontent-lgj-c98_left-slide-in;animation-fill-mode:both}.system-notification[_ngcontent-lgj-c98]   .notification-close[_ngcontent-lgj-c98]{cursor:pointer}@keyframes _ngcontent-lgj-c98_left-slide-in{0%{opacity:0;transform:translate(-20px)}to{opacity:1;transform:translate(0)}}@keyframes _ngcontent-lgj-c98_init-max-height{0%{opacity:0;transform:scaleY(0)}to{opacity:1;transform:scaleY(1)}}</style><style>.dotstyle{width:260px;overflow:hidden;display:block;padding:0;position:relative;text-align:center}.dotstyle.dotstyle--scaleup li span{transition:transform .3s ease,background-color .3s ease}.dotstyle.dotstyle--scaleup li.p-small span,.dotstyle.dotstyle--scaleup li.n-small span{transform:scale(.8)}.dotstyle.dotstyle--scaleup li.current span{background-color:#17a2b8;transform:scale(1.3)}.dotstyle ul{position:relative;display:inline-flex;margin:0;padding:0;list-style:none;cursor:default;vertical-align:bottom;-webkit-user-select:none;user-select:none;transform:translate(0)}.dotstyle ul li{display:block;position:relative;float:left;margin:8px;width:10px;height:10px;cursor:default}.dotstyle ul li span{top:0;left:0;width:100%;height:100%;outline:none;border-radius:50%;background-color:#17a2b8;background-color:#17a2b84d;text-indent:-999em;cursor:default;position:absolute}@keyframes fade{0%{opacity:0}to{opacity:1}}body.tour-open{overflow:hidden}.guided-tour-button{background-color:var(--gt-tour-next-button-color);border-radius:50%;cursor:pointer;float:right;height:50px;width:50px;text-align:center;padding:11px}.guided-tour-button:hover{background-color:var(--gt-tour-next-button-hover)}jhi-guided-tour .guided-tour-overlay{background:var(--gt-overlay-background);opacity:.5;text-align:center;display:block;height:100%;width:100%;top:0;left:0;position:fixed;z-index:1081}jhi-guided-tour .guided-tour-element-overlay{background:none;border:5px var(--gt-tour-border-color) solid;display:block;position:fixed;z-index:1081}jhi-guided-tour .guided-tour-element-overlay.click-through{pointer-events:none}jhi-guided-tour .tour-step{min-width:400px;max-width:1000px;position:fixed;z-index:1083}jhi-guided-tour .tour-step.startFade{opacity:1;animation:fade .6s ease}jhi-guided-tour .tour-step.page-tour-step{min-width:500px;width:80vh;left:50%;top:50%;transform:translate(-50%,-50%)}@media (max-height: 600px){jhi-guided-tour .tour-step.page-tour-step{width:100vh}}@media (max-width: 650px){jhi-guided-tour .tour-step.page-tour-step{min-width:initial;width:40vh}}@media (max-width: 992px){jhi-guided-tour .tour-step.page-tour-step.video-tour{width:100%;height:100%;left:0;top:0;transform:none}}@media (min-width: 993px) and (max-width: 1200px){jhi-guided-tour .tour-step.page-tour-step.video-tour{width:60%}}@media (max-height: 600px){jhi-guided-tour .tour-step.page-tour-step.video-tour .tour-block__content{max-height:75vh}}jhi-guided-tour .tour-step.page-tour-step.video-tour .tour-block__content iframe{aspect-ratio:16/9;min-height:auto}jhi-guided-tour .tour-step .tour-block{background-color:var(--gt-tour-step-bg-color);box-shadow:0 .4rem .6rem var(--gt-tour-shadow-color);color:var(--gt-tour-text-color);padding:20px;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px}@media (max-width: 992px){jhi-guided-tour .tour-step .tour-block{height:100%}}jhi-guided-tour .tour-step .tour-block__header{display:flex;flex-direction:row;justify-content:space-between}jhi-guided-tour .tour-step .tour-block__header .headline{display:block;font-size:18px;padding-bottom:5px}jhi-guided-tour .tour-step .tour-block__header .close{width:20px;height:20px;margin:1px -10px;opacity:.3}jhi-guided-tour .tour-step .tour-block__header .close:hover{opacity:1}jhi-guided-tour .tour-step .tour-block__header .close:before,jhi-guided-tour .tour-step .tour-block__header .close:after{background-color:var(--gt-tour-block-after-background);content:" ";height:20px;width:2px;position:absolute}jhi-guided-tour .tour-step .tour-block__header .close:before{transform:rotate(45deg)}jhi-guided-tour .tour-step .tour-block__header .close:after{transform:rotate(-45deg)}jhi-guided-tour .tour-step .tour-block__content{font-size:15px;min-height:40px;max-height:80vh;overflow-y:auto;margin-bottom:20px}@media (max-height: 600px){jhi-guided-tour .tour-step .tour-block__content{max-height:60vh}}jhi-guided-tour .tour-step .tour-block__content p{margin-bottom:0}jhi-guided-tour .tour-step .tour-block__content tt{background-color:var(--gt-tour-block-content-tt-background);padding:4px}jhi-guided-tour .tour-step .tour-block__content ul{margin-right:15px}jhi-guided-tour .tour-step .tour-block__content ul li{padding:4px}jhi-guided-tour .tour-step .tour-block__content .red{color:var(--gt-tour-block-content-red)}jhi-guided-tour .tour-step .tour-block__content div>.btn,jhi-guided-tour .tour-step .tour-block__content .step-link a,jhi-guided-tour .tour-step .tour-block__content iframe,jhi-guided-tour .tour-step .tour-block__content img{display:block;margin-top:10px;margin-left:auto;margin-right:auto}jhi-guided-tour .tour-step .tour-block__content .step-hint{border-radius:3px;display:flex;margin:10px 0 0;padding:8px}jhi-guided-tour .tour-step .tour-block__content .step-hint:not(.interaction){background:var(--gt-tour-block-step-hint-not-interaction-background)}jhi-guided-tour .tour-step .tour-block__content .step-hint.interaction:not(.alert-success){background:var(--gt-tour-block-step-hint-interaction-background)}jhi-guided-tour .tour-step .tour-block__content .step-hint__icon{display:inline-block;margin:0 10px 0 8px}jhi-guided-tour .tour-step .tour-block__content .step-hint__label{display:inline-block;font-size:13px;padding-top:3px;vertical-align:text-bottom}jhi-guided-tour .tour-step .tour-block__content .sub-headline{padding-bottom:10px}jhi-guided-tour .tour-step .tour-block__content img{max-width:100%}jhi-guided-tour .tour-step .tour-block__content iframe{width:100%;min-height:400px}jhi-guided-tour .tour-step .tour-block__buttons{display:flex;flex-direction:row;justify-content:space-between;overflow:hidden}jhi-guided-tour .tour-step .tour-block__buttons button{cursor:pointer;float:right;font-size:14px;border:none;outline:none;padding:8px 15px;white-space:nowrap}jhi-guided-tour .tour-step .tour-block__buttons button:disabled{color:var(--gt-tour-button-text-disabled)!important;background-color:var(--gt-tour-button-color-disabled)!important;cursor:default}jhi-guided-tour .tour-step .tour-block__buttons button:disabled fa-icon{color:var(--gt-tour-button-text-disabled)!important}jhi-guided-tour .tour-step .tour-block__buttons button.back-button{background-color:var(--gt-tour-back-button-color);color:var(--gt-tour-button-text-color)}jhi-guided-tour .tour-step .tour-block__buttons button.back-button:hover{background-color:var(--gt-tour-back-button-hover);color:var(--gt-tour-button-text-color)}jhi-guided-tour .tour-step .tour-block__buttons button.back-button fa-icon{padding-right:10px}jhi-guided-tour .tour-step .tour-block__buttons button.next-button{background-color:var(--gt-tour-next-button-color);color:var(--gt-tour-button-text-color)}jhi-guided-tour .tour-step .tour-block__buttons button.next-button:hover{background-color:var(--gt-tour-next-button-hover);color:var(--gt-tour-button-text-color)}jhi-guided-tour .tour-step .tour-block__buttons button.next-button fa-icon{padding-left:10px}jhi-guided-tour .tour-step .tour-block__buttons button.restart-button{background-color:var(--gt-tour-restart-button-color);color:var(--gt-tour-button-text-color)}jhi-guided-tour .tour-step .tour-block__buttons button.restart-button:hover{background-color:var(--gt-tour-restart-button-hover);color:var(--gt-tour-button-text-color)}jhi-guided-tour .tour-step .tour-block__buttons button.restart-button fa-icon{padding-right:10px}jhi-guided-tour .tour-step.tour-bottom .tour-arrow:before,jhi-guided-tour .tour-step.tour-bottom-right .tour-arrow:before,jhi-guided-tour .tour-step.tour-bottom-left .tour-arrow:before{width:0;height:0;content:"";z-index:2;border-bottom:1rem solid var(--gt-tour-step-bg-color);border-left:1rem solid transparent;border-right:1rem solid transparent;position:absolute}jhi-guided-tour .tour-step.tour-bottom .tour-block,jhi-guided-tour .tour-step.tour-bottom-right .tour-block,jhi-guided-tour .tour-step.tour-bottom-left .tour-block{margin-top:15px}jhi-guided-tour .tour-step.tour-top .tour-arrow:before,jhi-guided-tour .tour-step.tour-top-right .tour-arrow:before,jhi-guided-tour .tour-step.tour-top-left .tour-arrow:before{width:0;height:0;content:"";z-index:2;border-top:1rem solid var(--gt-tour-step-bg-color);border-left:1rem solid transparent;border-right:1rem solid transparent;position:absolute;bottom:0}jhi-guided-tour .tour-step.tour-top .tour-block,jhi-guided-tour .tour-step.tour-top-right .tour-block,jhi-guided-tour .tour-step.tour-top-left .tour-block{margin-bottom:15px}jhi-guided-tour .tour-step.tour-bottom .tour-arrow:before,jhi-guided-tour .tour-step.tour-top .tour-arrow:before{transform:translate(-50%);left:50%}jhi-guided-tour .tour-step.tour-bottom-right .tour-arrow:before,jhi-guided-tour .tour-step.tour-top-right .tour-arrow:before{transform:translate(-100%);left:calc(100% - 5px)}jhi-guided-tour .tour-step.tour-bottom-left .tour-arrow:before,jhi-guided-tour .tour-step.tour-top-left .tour-arrow:before{left:15px}jhi-guided-tour .tour-step.tour-left .tour-arrow:before{width:0;height:0;content:"";z-index:2;border-left:1rem solid var(--gt-tour-step-bg-color);border-bottom:1rem solid transparent;border-top:1rem solid transparent;position:absolute;left:100%;transform:translate(-100%);top:15px}jhi-guided-tour .tour-step.tour-left .tour-block{margin-right:15px}jhi-guided-tour .tour-step.tour-right .tour-arrow:before{width:0;height:0;content:"";z-index:2;border-right:1rem solid var(--gt-tour-step-bg-color);border-bottom:1rem solid transparent;border-top:1rem solid transparent;position:absolute;left:0;top:15px}jhi-guided-tour .tour-step.tour-right .tour-block{margin-left:15px}
+</style><style>.wrapper[_ngcontent-lgj-c95], .toggle-popover-wrapper[_ngcontent-lgj-c95]{display:flex;align-items:center;justify-content:flex-start;height:100%}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]{background:none;border:none;padding:0;inline-size:1.5rem;block-size:1.5rem;aspect-ratio:1;border-radius:50%;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;outline-offset:5px;transform:translateY(-.5px)}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95] > svg[_ngcontent-lgj-c95]{inline-size:100%;block-size:100%;stroke-linecap:round}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > [_ngcontent-lgj-c95]:is(.moon, .sun[_ngcontent-lgj-c95], .sun-beams)[_ngcontent-lgj-c95]{transform-origin:center center}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > [_ngcontent-lgj-c95]:is(.moon, .sun)[_ngcontent-lgj-c95]{fill:var(--navbar-dark-color)}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .sun-beams[_ngcontent-lgj-c95]{stroke:var(--navbar-dark-color);stroke-width:2px;transition:transform 1s cubic-bezier(.25,0,.3,1),opacity .5s cubic-bezier(.25,0,.3,1)}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .sun[_ngcontent-lgj-c95]{transition:transform .5s cubic-bezier(.25,0,.3,1)}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .moon[_ngcontent-lgj-c95] > circle[_ngcontent-lgj-c95]{transition:transform .25s cubic-bezier(.9,0,.1,1)}@supports (cx: 1){.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .moon[_ngcontent-lgj-c95] > circle[_ngcontent-lgj-c95]{transition:cx .25s cubic-bezier(.9,0,.1,1)}}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle.dark[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .sun-beams[_ngcontent-lgj-c95]{opacity:0;transform:rotate(-90deg);transition-duration:.15s}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle.dark[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .moon[_ngcontent-lgj-c95] > circle[_ngcontent-lgj-c95]{transform:translate(-7px);transition-duration:.8s}@supports (cx: 1){.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle.dark[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .moon[_ngcontent-lgj-c95] > circle[_ngcontent-lgj-c95]{transform:translate(0);cx:17}}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle.dark[_ngcontent-lgj-c95]   .sun-and-moon[_ngcontent-lgj-c95] > .sun[_ngcontent-lgj-c95]{transform:scale(1.5);transition-timing-function:cubic-bezier(.25,0,.3,1);transition-duration:.25s}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]:hover   .sun-and-moon[_ngcontent-lgj-c95] > [_ngcontent-lgj-c95]:is(.moon, .sun)[_ngcontent-lgj-c95]{fill:var(--link-color)}.wrapper[_ngcontent-lgj-c95]   .toggle-popover-wrapper[_ngcontent-lgj-c95]   .theme-toggle[_ngcontent-lgj-c95]:hover   .sun-and-moon[_ngcontent-lgj-c95] > .sun-beams[_ngcontent-lgj-c95]{stroke:var(--link-color)}.popover-content[_ngcontent-lgj-c95]{display:flex;flex-direction:column;justify-content:center;align-items:center;max-width:300px;width:250px;min-width:-moz-fit-content;min-width:fit-content;text-align:center}.popover-content[_ngcontent-lgj-c95]   .head[_ngcontent-lgj-c95]{font-size:20px;font-weight:700;color:var(--warning)}.popover-content[_ngcontent-lgj-c95]   .head[_ngcontent-lgj-c95]   span[_ngcontent-lgj-c95]{padding:0 5px;color:var(--bs-body-color)}.popover-content[_ngcontent-lgj-c95]   .switch-box[_ngcontent-lgj-c95]{border:1px solid var(--theme-switch-box-border-color);margin:1rem .5em .5em;padding:.3em .5em;width:100%;min-width:-moz-fit-content;min-width:fit-content;display:flex;justify-content:space-between;align-items:center;white-space:nowrap}.popover-content[_ngcontent-lgj-c95]   .switch-box[_ngcontent-lgj-c95]   .form-switch[_ngcontent-lgj-c95]{font-size:16px;margin:0}.popover-content[_ngcontent-lgj-c95]   .switch-box[_ngcontent-lgj-c95]   .form-switch[_ngcontent-lgj-c95] > *[_ngcontent-lgj-c95]{cursor:pointer}</style><style>.light-button[_ngcontent-lgj-c97]{border:0;background-color:transparent;color:var(--navbar-dark-color);transition:color .2s}.light-button[_ngcontent-lgj-c97]:hover{color:var(--link-color)}.notification-overlay[_ngcontent-lgj-c97]{display:none;z-index:998;position:fixed;inset:0;background-color:var(--notification-sb-overlay-bg)}.notification-overlay.show[_ngcontent-lgj-c97]{display:block}.notification-sidebar[_ngcontent-lgj-c97]{width:300px;position:fixed;top:0;right:-305px;bottom:0;z-index:999;transition:.3s;overflow-y:hidden;color:var(--bs-body-color);background-color:var(--notification-sb-background);box-shadow:0 0 20px 0 var(--notification-sb-box-shadow)}.notification-sidebar[_ngcontent-lgj-c97] > *[_ngcontent-lgj-c97]:hover{color:var(--bs-body-color)}.notification-sidebar.show[_ngcontent-lgj-c97]{right:0;transition:.3s}.notification-sidebar[_ngcontent-lgj-c97]   .header[_ngcontent-lgj-c97]{height:85px}.notification-sidebar[_ngcontent-lgj-c97]   #notification-sidebar-container[_ngcontent-lgj-c97]{height:calc(100vh - 85px);overflow-y:auto;overflow-x:hidden}.notification-sidebar[_ngcontent-lgj-c97]   #notification-sidebar-container[_ngcontent-lgj-c97]   .notification-item[_ngcontent-lgj-c97]{cursor:pointer;white-space:normal}.notification-sidebar[_ngcontent-lgj-c97]   #notification-sidebar-container[_ngcontent-lgj-c97]   .notification-item[_ngcontent-lgj-c97]:nth-child(even){background-color:var(--notification-sb-even-child-bg)}.notification-sidebar[_ngcontent-lgj-c97]   #notification-sidebar-container[_ngcontent-lgj-c97]   .notification-item[_ngcontent-lgj-c97]:hover{background-color:var(--notification-sb-hover-child-bg)}.notification-sidebar[_ngcontent-lgj-c97]   #notification-sidebar-container[_ngcontent-lgj-c97]   .notification-item[_ngcontent-lgj-c97]   h5[_ngcontent-lgj-c97]{font-size:1rem}.notification-sidebar[_ngcontent-lgj-c97]   #notification-sidebar-container[_ngcontent-lgj-c97]   .notification-item[_ngcontent-lgj-c97]   .info[_ngcontent-lgj-c97]{font-size:.8rem}.notification-sidebar[_ngcontent-lgj-c97]   .no-notifications[_ngcontent-lgj-c97]{display:block;padding:20px 16px}.notification-sidebar[_ngcontent-lgj-c97]   .ng-fa-icon[_ngcontent-lgj-c97]{color:var(--notification-sb-icon-color)}</style><style>.documentation-button[_ngcontent-lgj-c96]{border:none;background:none;margin-bottom:5px}</style><style>#exercise-header[_ngcontent-lgj-c117]{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:flex-start;gap:10px;font-size:1.3rem;line-height:1.2;font-weight:400}#exercise-header[_ngcontent-lgj-c117]   .right-col[_ngcontent-lgj-c117]{flex:0 0 auto}#exercise-header[_ngcontent-lgj-c117]   .right-col[_ngcontent-lgj-c117] > div[_ngcontent-lgj-c117]{display:flex;width:100%;justify-content:space-between;gap:10px}#exercise-header[_ngcontent-lgj-c117]   .right-col[_ngcontent-lgj-c117] > div[_ngcontent-lgj-c117]:not(:last-child){margin-bottom:5px}#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:5px}@supports (flex-basis: min-content){#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]{flex:1 1 min-content}}#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]   .title-row[_ngcontent-lgj-c117]{display:flex;gap:5px;flex-wrap:wrap}#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]   .title-row[_ngcontent-lgj-c117]   .inner-row[_ngcontent-lgj-c117]{margin-bottom:0;margin-right:10px;font-size:1.575rem;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]   .title-row[_ngcontent-lgj-c117]     .badge-row{display:flex;flex-wrap:wrap}#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]   .points-assessment-row[_ngcontent-lgj-c117], #exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]   .submission-row[_ngcontent-lgj-c117]{white-space:nowrap;display:flex;flex-wrap:wrap;gap:.25em;align-items:center}#exercise-header[_ngcontent-lgj-c117]   .fw-500[_ngcontent-lgj-c117]{font-weight:500}@media (max-width: 575px){#exercise-header[_ngcontent-lgj-c117]{font-size:1.1rem}#exercise-header[_ngcontent-lgj-c117]   .left-col[_ngcontent-lgj-c117]   .title-row[_ngcontent-lgj-c117]   .inner-row[_ngcontent-lgj-c117]{font-size:1.3em}}</style><style>[_nghost-lgj-c143]{position:sticky;bottom:0;left:0;z-index:100;overflow:hidden;display:flex;flex-direction:column;align-items:flex-end}.btn[_ngcontent-lgj-c143]{box-shadow:none}.animated-button[_ngcontent-lgj-c143]{animation:.4s highlight;animation-delay:.8s;animation-iteration-count:3}</style><style>.tab-bar-exercise-details[_ngcontent-lgj-c30]{flex-wrap:wrap}.tab-bar-exercise-details[_ngcontent-lgj-c30]   .instructor-actions[_ngcontent-lgj-c30]{width:100%;flex-basis:100%;justify-content:flex-end}.course-body-container[_ngcontent-lgj-c30]{position:relative}.refresh-overlay[_ngcontent-lgj-c30]{position:absolute;inset:0;display:flex;justify-content:center;align-items:flex-start;opacity:0;pointer-events:none;transition:.1s ease-out opacity}.refresh-overlay.active[_ngcontent-lgj-c30]{background-color:var(--overview-refresh-overlay-bg-color);opacity:1;pointer-events:auto;transition:.2s ease-in opacity}.refresh-overlay[_ngcontent-lgj-c30]   .ng-fa-icon[_ngcontent-lgj-c30]{position:relative;top:calc(47.5vh - 150px);transform:translateY(-50%);color:var(--overview-refresh-overlay-color)}.back-button[_ngcontent-lgj-c30]{cursor:pointer}.current-week-row[_ngcontent-lgj-c30]    >div{background-color:var(--overview-light-primary-background-color)}.statistic-summary[_ngcontent-lgj-c30]{margin-top:25px}.statistic-summary[_ngcontent-lgj-c30]   .chart-container[_ngcontent-lgj-c30]{display:inline-flex;align-items:center;justify-content:flex-end;margin-bottom:20px}.statistic-summary[_ngcontent-lgj-c30]   .chart-container[_ngcontent-lgj-c30]   .chart-text[_ngcontent-lgj-c30]{margin-right:130px;position:absolute}.statistic-summary[_ngcontent-lgj-c30]   .color-legend-container[_ngcontent-lgj-c30]{margin-bottom:40px}.statistic-summary[_ngcontent-lgj-c30]   .color-legend-container[_ngcontent-lgj-c30]   .color-legend-entry[_ngcontent-lgj-c30]{display:inline-flex;align-items:center;width:100%}.exercise-row-container[_ngcontent-lgj-c30]   .control-label[_ngcontent-lgj-c30]{cursor:pointer}.exercise-row-container[_ngcontent-lgj-c30]   .collapsed[_ngcontent-lgj-c30]{margin-top:1rem;border-bottom:1px solid var(--overview-light-border-color)}.course-information[_ngcontent-lgj-c30]{padding-top:29px}.course-information[_ngcontent-lgj-c30]   .exercise-panel[_ngcontent-lgj-c30]   .row.has-exercises[_ngcontent-lgj-c30]{cursor:pointer;border-radius:3px}.course-information[_ngcontent-lgj-c30]   .exercise-panel[_ngcontent-lgj-c30]   .row.has-exercises[_ngcontent-lgj-c30]:hover{background-color:var(--overview-light-background-color)}.course-information[_ngcontent-lgj-c30]   .exercise-panel[_ngcontent-lgj-c30]   .row.has-exercises[_ngcontent-lgj-c30]:hover   .icon[_ngcontent-lgj-c30]{color:var(--primary)}.exercise-divider[_ngcontent-lgj-c30]{height:0;width:100%;margin:1rem 0 .5rem;border-top:1px solid var(--overview-light-border-color)}.color-indicator[_ngcontent-lgj-c30]{height:20px;width:20px;background-color:#0f6ab4;position:relative;top:-4px;margin-right:5px;border-radius:3px}canvas#complete-chart[_ngcontent-lgj-c30]{z-index:99}.dev-button[_ngcontent-lgj-c30]{text-align:left;color:#fff;background-color:#3e8acc;border:none;border-radius:1px}.dev-button[_ngcontent-lgj-c30]:hover{background-color:#0f6ab4}.dev-button[_ngcontent-lgj-c30]:active{box-shadow:0 2px 0 var(--artemis-dark)}.dev-button[_ngcontent-lgj-c30]:disabled{background-color:gray}.btn-primary[_ngcontent-lgj-c30], .btn-primary[_ngcontent-lgj-c30]:hover, .btn-primary[_ngcontent-lgj-c30]:disabled, .btn-info[_ngcontent-lgj-c30], .btn-info[_ngcontent-lgj-c30]:hover, .btn-success[_ngcontent-lgj-c30], .btn-success[_ngcontent-lgj-c30]:hover{color:#fff}@media (max-width: 768px){.col-12[_ngcontent-lgj-c30]{width:100%!important}}.fadeInIcon[_ngcontent-lgj-c30]{animation:_ngcontent-lgj-c30_fadeIn .3s;animation-iteration-count:initial}@keyframes _ngcontent-lgj-c30_fadeIn{0%{opacity:0}50%{opacity:.5}to{visibility:visible;opacity:1}}</style><style>.result-history-wrapper[_ngcontent-lgj-c115]{display:flex;width:100%}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]{display:flex;flex:2}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]   .result-score[_ngcontent-lgj-c115]{width:75px}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]   .result-score[_ngcontent-lgj-c115]   .result-score-icon[_ngcontent-lgj-c115]{display:flex;align-items:center;justify-content:center;width:25px;height:25px;border-radius:25px;background-color:transparent}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]   .result-score[_ngcontent-lgj-c115]   .result-score-info[_ngcontent-lgj-c115]{display:flex;flex-direction:column;align-items:center;margin-left:-39px;margin-right:-39px;gap:4px}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]   .result-divider[_ngcontent-lgj-c115]{width:300%;border-top:1px solid;margin-top:12.5px}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]:first-child{flex:1}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]:last-child{flex:1}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element[_ngcontent-lgj-c115]:last-child   .result-divider[_ngcontent-lgj-c115]{border-top:1px dashed}.result-history-wrapper[_ngcontent-lgj-c115]   .result-history-element.previous-history-element[_ngcontent-lgj-c115]   .result-divider[_ngcontent-lgj-c115]{border-top:1px dashed;width:100%}</style><style>.instructions[_ngcontent-lgj-c127], .instructions__content[_ngcontent-lgj-c127]{display:flex;flex-flow:column nowrap;flex:1 1 auto;height:100%}.instructions__content__markdown[_ngcontent-lgj-c127]{height:inherit;overflow:auto;padding:1rem}</style><style>.button-footer[_ngcontent-lgj-c116]{justify-content:flex-end;display:flex}</style><style>.info-icon[_ngcontent-lgj-c122]{color:#ffc107}</style><style>.button-footer[_ngcontent-lgj-c28]{justify-content:flex-end;display:flex}.start-practice-popover[_ngcontent-lgj-c28]{max-width:75vw}@media (min-width: 900px){.start-practice-popover[_ngcontent-lgj-c28]{max-width:660px}}</style><style>.tab-bar-exercise-details[_ngcontent-lgj-c26]{flex-wrap:wrap}.tab-bar-exercise-details[_ngcontent-lgj-c26]   .instructor-actions[_ngcontent-lgj-c26]{width:100%;flex-basis:100%;justify-content:flex-end}.course-body-container[_ngcontent-lgj-c26]{position:relative}.refresh-overlay[_ngcontent-lgj-c26]{position:absolute;inset:0;display:flex;justify-content:center;align-items:flex-start;opacity:0;pointer-events:none;transition:.1s ease-out opacity}.refresh-overlay.active[_ngcontent-lgj-c26]{background-color:var(--overview-refresh-overlay-bg-color);opacity:1;pointer-events:auto;transition:.2s ease-in opacity}.refresh-overlay[_ngcontent-lgj-c26]   .ng-fa-icon[_ngcontent-lgj-c26]{position:relative;top:calc(47.5vh - 150px);transform:translateY(-50%);color:var(--overview-refresh-overlay-color)}.back-button[_ngcontent-lgj-c26]{cursor:pointer}.current-week-row[_ngcontent-lgj-c26]    >div{background-color:var(--overview-light-primary-background-color)}.statistic-summary[_ngcontent-lgj-c26]{margin-top:25px}.statistic-summary[_ngcontent-lgj-c26]   .chart-container[_ngcontent-lgj-c26]{display:inline-flex;align-items:center;justify-content:flex-end;margin-bottom:20px}.statistic-summary[_ngcontent-lgj-c26]   .chart-container[_ngcontent-lgj-c26]   .chart-text[_ngcontent-lgj-c26]{margin-right:130px;position:absolute}.statistic-summary[_ngcontent-lgj-c26]   .color-legend-container[_ngcontent-lgj-c26]{margin-bottom:40px}.statistic-summary[_ngcontent-lgj-c26]   .color-legend-container[_ngcontent-lgj-c26]   .color-legend-entry[_ngcontent-lgj-c26]{display:inline-flex;align-items:center;width:100%}.exercise-row-container[_ngcontent-lgj-c26]   .control-label[_ngcontent-lgj-c26]{cursor:pointer}.exercise-row-container[_ngcontent-lgj-c26]   .collapsed[_ngcontent-lgj-c26]{margin-top:1rem;border-bottom:1px solid var(--overview-light-border-color)}.course-information[_ngcontent-lgj-c26]{padding-top:29px}.course-information[_ngcontent-lgj-c26]   .exercise-panel[_ngcontent-lgj-c26]   .row.has-exercises[_ngcontent-lgj-c26]{cursor:pointer;border-radius:3px}.course-information[_ngcontent-lgj-c26]   .exercise-panel[_ngcontent-lgj-c26]   .row.has-exercises[_ngcontent-lgj-c26]:hover{background-color:var(--overview-light-background-color)}.course-information[_ngcontent-lgj-c26]   .exercise-panel[_ngcontent-lgj-c26]   .row.has-exercises[_ngcontent-lgj-c26]:hover   .icon[_ngcontent-lgj-c26]{color:var(--primary)}.exercise-divider[_ngcontent-lgj-c26]{height:0;width:100%;margin:1rem 0 .5rem;border-top:1px solid var(--overview-light-border-color)}.color-indicator[_ngcontent-lgj-c26]{height:20px;width:20px;background-color:#0f6ab4;position:relative;top:-4px;margin-right:5px;border-radius:3px}canvas#complete-chart[_ngcontent-lgj-c26]{z-index:99}.dev-button[_ngcontent-lgj-c26]{text-align:left;color:#fff;background-color:#3e8acc;border:none;border-radius:1px}.dev-button[_ngcontent-lgj-c26]:hover{background-color:#0f6ab4}.dev-button[_ngcontent-lgj-c26]:active{box-shadow:0 2px 0 var(--artemis-dark)}.dev-button[_ngcontent-lgj-c26]:disabled{background-color:gray}.btn-primary[_ngcontent-lgj-c26], .btn-primary[_ngcontent-lgj-c26]:hover, .btn-primary[_ngcontent-lgj-c26]:disabled, .btn-info[_ngcontent-lgj-c26], .btn-info[_ngcontent-lgj-c26]:hover, .btn-success[_ngcontent-lgj-c26], .btn-success[_ngcontent-lgj-c26]:hover{color:#fff}@media (max-width: 768px){.col-12[_ngcontent-lgj-c26]{width:100%!important}}.fadeInIcon[_ngcontent-lgj-c26]{animation:_ngcontent-lgj-c26_fadeIn .3s;animation-iteration-count:initial}@keyframes _ngcontent-lgj-c26_fadeIn{0%{opacity:0}50%{opacity:.5}to{visibility:visible;opacity:1}}</style><style>.open-repository-button[_ngcontent-lgj-c27]{margin-bottom:10px;border-top-left-radius:0;border-bottom-left-radius:0}.https-or-ssh-button[_ngcontent-lgj-c27]{border-top-right-radius:0;border-bottom-right-radius:0}.url-box-remove-line-left[_ngcontent-lgj-c27]{border-top-left-radius:0;border-bottom-left-radius:0;border-left:none}.url-box-remove-line-right[_ngcontent-lgj-c27]{border-top-right-radius:0;border-bottom-right-radius:0;border-right:none}.clone-url[_ngcontent-lgj-c27]{flex:1;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;max-width:50vw;padding:4.5px}</style><style>span[_ngcontent-lgj-c71]{display:inline-block;line-height:1.25}</style><style>h4[_ngcontent-lgj-c77]{margin-bottom:.25rem;margin-right:.25rem}</style><style>.card-second-header[_ngcontent-lgj-c126]{padding:1rem;background-color:var(--programming-exercise-instruction-step-wizard-card-header-background);border-bottom:1px solid var(--programming-exercise-instruction-step-wizard-card-header-border)}.stepwizard-row[_ngcontent-lgj-c126]{display:flex;justify-content:space-between}.stepwizard[_ngcontent-lgj-c126]{display:table;width:100%;position:relative}.stepwizard-title[_ngcontent-lgj-c126]{display:flex;align-items:center}.stepwizard-step[_ngcontent-lgj-c126]{display:table-cell;text-align:center;position:relative}.stepwizard-step[_ngcontent-lgj-c126]   .fa[_ngcontent-lgj-c126]{vertical-align:initial}.stepwizard-step[_ngcontent-lgj-c126]   p[_ngcontent-lgj-c126]{margin-top:10px}.stepwizard-step[_ngcontent-lgj-c126]   button[disabled][_ngcontent-lgj-c126]{opacity:1!important;filter:alpha(opacity=100)!important;cursor:default}.stepwizard-step--no-result.btn[_ngcontent-lgj-c126]{cursor:default}.stepwizard-step--failed.btn[_ngcontent-lgj-c126]{cursor:pointer}.stepwizard-step[_ngcontent-lgj-c126]   .btn[_ngcontent-lgj-c126]{cursor:default;background-color:var(--programming-exercise-instruction-step-wizard-card-header-background);width:30px;height:30px;text-align:center;padding:6px 0;font-size:12px;line-height:1.428571429;border-radius:15px;border-color:var(--programming-exercise-instruction-step-wizard-btn-border-color)}.stepwizard-step[_ngcontent-lgj-c126]   .btn.not-done[_ngcontent-lgj-c126]{color:var(--programming-exercise-instruction-step-wizard-circle-not-done-color)}.test-passing[_ngcontent-lgj-c126]{cursor:default!important}.test-passing[_ngcontent-lgj-c126]:hover{background-color:var(--programming-exercise-instruction-step-wizard-test-passing-hover-color)}</style><style>.test-status--linked[_ngcontent-lgj-c125]{text-decoration:underline;cursor:pointer}.test-icon[_ngcontent-lgj-c125], .task-name[_ngcontent-lgj-c125]{font-weight:700}</style></head>
+    <body>
+        <jhi-main ng-version="15.2.9"><jhi-alert-overlay _nghost-lgj-c103="" class="ng-tns-c103-0"><!---->
+<!---->
+</jhi-alert-overlay>
+<div class="page-wrapper">
+    <jhi-page-ribbon _nghost-lgj-c104="">
+        <div _ngcontent-lgj-c104="" class="box">
+            <!---->
+        </div>
+    </jhi-page-ribbon>
+    <div>
+        <router-outlet name="navbar"></router-outlet><jhi-navbar _nghost-lgj-c100="" class="ng-star-inserted"><!---->
+
+<nav _ngcontent-lgj-c100="" class="navbar navbar-dark jh-navbar expanded">
+    <div _ngcontent-lgj-c100="" class="jh-logo-container">
+        <a _ngcontent-lgj-c100="" routerlink="/" class="navbar-brand" href="https://artemis.in.tum.de/">
+            <img _ngcontent-lgj-c100="" height="30" alt="" src="./Aufgabendetails_files/logo.png">
+            <div _ngcontent-lgj-c100="" jhitranslate="global.title" class="navbar-title">Artemis</div>
+            <!---->
+            <div _ngcontent-lgj-c100="" placement="bottom" tooltipclass="git-info" class="navbar-version">
+                6.1.7
+            </div><!---->
+        </a>
+        <div _ngcontent-lgj-c100="" class="indicators">
+            <jhi-connection-warning _ngcontent-lgj-c100="" class="align-self-center" _nghost-lgj-c93=""><!---->
+
+<div _ngcontent-lgj-c93="" popoverclass="connection-warning-popover" class="connection-warning">
+    <fa-icon _ngcontent-lgj-c93="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="wifi" class="svg-inline--fa fa-wifi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"></path></svg></fa-icon>
+    <!---->
+</div><!---->
+</jhi-connection-warning>
+            <jhi-loading-notification _ngcontent-lgj-c100="" class="align-self-center"> <!----> </jhi-loading-notification>
+        </div>
+        <!---->
+        <div _ngcontent-lgj-c100="" class="toggler-wrapper">
+            <a _ngcontent-lgj-c100="" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="toggler">
+                <fa-icon _ngcontent-lgj-c100="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></fa-icon>
+            </a>
+        </div>
+    </div>
+    <div _ngcontent-lgj-c100="" id="navbarResponsive" class="navbar-collapse collapse">
+        <ul _ngcontent-lgj-c100="" class="navbar-nav ms-auto">
+            <li _ngcontent-lgj-c100="" routerlinkactive="active" class="nav-item ng-star-inserted">
+                <a _ngcontent-lgj-c100="" routerlink="courses" id="overview-menu" class="guided-tour-overview nav-link" href="https://artemis.in.tum.de/courses">
+                    <span _ngcontent-lgj-c100="">
+                        <fa-icon _ngcontent-lgj-c100="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="table-cells-large" class="svg-inline--fa fa-table-cells-large" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M448 96V224H288V96H448zm0 192V416H288V288H448zM224 224H64V96H224V224zM64 288H224V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"></path></svg></fa-icon>
+                        <span _ngcontent-lgj-c100="" jhitranslate="global.menu.overview">Kursübersicht</span>
+                    </span>
+                </a>
+            </li><!---->
+
+            <!---->
+
+            <!---->
+
+            <!---->
+        </ul>
+        
+            
+    <div _ngcontent-lgj-c100="" id="navbar-icon-menu" class="ng-star-inserted">
+        <jhi-notification-sidebar _ngcontent-lgj-c100="" _nghost-lgj-c97="" class="ng-star-inserted"><div _ngcontent-lgj-c97="" class="pointer">
+    <button _ngcontent-lgj-c97="" class="guided-tour-notification notification-button light-button">
+        <fa-icon _ngcontent-lgj-c97="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" class="svg-inline--fa fa-bell" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"></path></svg></fa-icon>
+        <!---->
+    </button>
+</div>
+
+<div _ngcontent-lgj-c97="" class="notification-overlay hide"></div>
+
+<div _ngcontent-lgj-c97="" class="notification-sidebar hide">
+    <div _ngcontent-lgj-c97="" class="d-flex flex-column">
+        <div _ngcontent-lgj-c97="" class="header pt-4 px-3">
+            <div _ngcontent-lgj-c97="" class="d-flex header-icon justify-content-between align-items-baseline">
+                <div _ngcontent-lgj-c97="" class="d-flex">
+                    <jhi-documentation-button _ngcontent-lgj-c97="" _nghost-lgj-c96="">
+        <button _ngcontent-lgj-c96="" type="button" class="text-primary documentation-button">
+            <fa-icon _ngcontent-lgj-c96="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-info" class="svg-inline--fa fa-circle-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></fa-icon><!---->
+        </button>
+    </jhi-documentation-button>
+                    <a _ngcontent-lgj-c97="" class="ps-2" href="https://artemis.in.tum.de/user-settings/notifications">
+                        <fa-icon _ngcontent-lgj-c97="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="gear" class="svg-inline--fa fa-gear" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"></path></svg></fa-icon>
+                    </a>
+                </div>
+                <h5 _ngcontent-lgj-c97="" class="mb-3 text-center fw-medium">
+                    Mitteilungen
+                </h5>
+                <button _ngcontent-lgj-c97="" class="close header-icon border-0 bg-transparent pe-2">
+                    <fa-icon _ngcontent-lgj-c97="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg></fa-icon>
+                </button>
+            </div>
+            <div _ngcontent-lgj-c97="" class="text-end">
+                <button _ngcontent-lgj-c97="" id="hide-until-toggle" class="border-0 bg-transparent pe-2">
+                    <fa-icon _ngcontent-lgj-c97="" class="ng-fa-icon ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="box-archive" class="svg-inline--fa fa-box-archive" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 32H480c17.7 0 32 14.3 32 32V96c0 17.7-14.3 32-32 32H32C14.3 128 0 113.7 0 96V64C0 46.3 14.3 32 32 32zm0 128H480V416c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V160zm128 80c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"></path></svg></fa-icon><!----><!---->
+                    <!---->
+                </button>
+                <small _ngcontent-lgj-c97="" class="text-muted">
+                    25 von 173 Mitteilungen geladen
+                </small>
+            </div>
+        </div>
+        <div _ngcontent-lgj-c97="" id="notification-sidebar-container">
+            <!---->
+            <div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer kursweiter Beitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Der Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen kursweiten Beitrag: "Greetings, I am trying to access the Slack channel through the provided link https://eist2023.slack.com/ and it returns an error message saying said channel could not be found. Any help? Thank y...</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        22.05.23 15:50
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">César Muro Lauroba</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 05 Tutorial 02 -- What Is the Point" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        19.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L03E01 - Quiz" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "Can I have teh password for quiz as I could not participate today?"</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        19.05.23 12:03
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Hamza Sajid Paul</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L03P03 Rest Architectural Style" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "Artemis has been testing for 3 hours. Resetting the Repository and pushing again have not helped."</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        19.05.23 01:44
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Lukas Daniek</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe aktualisiert
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Use i≥j instead of just i≥0 to ensure the exponent i−j is never negative</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        17.05.23 19:14
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Max Lang</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Aufgabe 5 - Double Hashing" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        17.05.23 14:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L03P02 Async Messages" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "Everytime i get this error from IntelliJ: A problem occurred configuring project ':DroidFactoryService'. Could not resolve all files for configuration ':DroidFactoryServi...</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        15.05.23 14:47
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Emi Mano</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 04 Supplemental 02 — Counter Time" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        12.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 04 Supplemental 01 — Loloopop" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        12.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 04 Tutorial 03 — A Wavy Approach" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        12.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 04 Tutorial 02 — Termination" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        12.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 04 Tutorial 01 — Y?" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        12.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L02P01 - Containers" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "Hey there! I'm not quite sure I understood how the bonus point from the optional PersonIntegrationTests works - does the bonus count towards our score overall, meaning we c...</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        12.05.23 13:12
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Lara Szymborski</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Aufgabe 4 - Simple Hashing with Chaining" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        10.05.23 14:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "P-Aufgabe 4 1 - Selbstorganisierende Liste" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        10.05.23 14:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L02P01 - Containers" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "I do not really understand how to find out the name of the generated .jar file from the Part 2, 3 task. Could you help me please?"</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        09.05.23 14:23
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Valery Antimenkov</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L02P01 - Containers" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "Hello, I am having problem with the second test addThreeParent. I get this errot: PersonIntegrationTest::testAddThreeParents should succeed, but failed: Could not invoke th...</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        08.05.23 21:25
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Ananya Mishra</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer Aufgabenbeitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Die Aufgabe "L02P01 - Containers" im Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen Beitrag: "Hi there! I was wondering if i am maybe missing out on half a point here! As i understood the task, implementing the integration tests is completely optional and i should b...</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        06.05.23 18:18
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Halid Zehic</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 03 Quiz" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        06.05.23 13:54
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 03 Tutorial 01 — MiniJava 2.0" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        05.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 03 Tutorial 02 — Loop Invariants" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        05.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "Week 03 Tutorial 03 — Two b, or Not Two b" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        05.05.23 18:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Neuer kursweiter Beitrag
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Der Kurs "Introduction to Software Engineering (IN0006) - Garching" hat einen neuen kursweiten Beitrag: "Dear Students, below you will find an overview of our offered online tutorial sessions. Best regards, Your EIST Team Fri14 (12 - 14) [ENG] 672 8926 5905 https://tum-conf.zoom.us/j/67289265905?pw...</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        05.05.23 12:59
+                        von
+                        <span _ngcontent-lgj-c97="" class="ng-star-inserted">Hoang-Trieu Tong</span><!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "L03SP01 Microservice design with the Google Service Weaver framework" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        04.05.23 11:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><div _ngcontent-lgj-c97="" class="notification-item p-3 ng-star-inserted">
+                <div _ngcontent-lgj-c97="">
+                    <h5 _ngcontent-lgj-c97="" class="notification-title fw-medium">
+                        Aufgabe veröffentlicht
+                        <!---->
+                    </h5>
+                    <div _ngcontent-lgj-c97="" class="notification-text mb-1 text-break">Eine neue Aufgabe "L03T05 Microservices architecture use-case" wurde veröffentlicht.</div>
+                    <div _ngcontent-lgj-c97="" class="info text-muted text-end">
+                        04.05.23 11:00
+                        von
+                        
+                            <span _ngcontent-lgj-c97="" jhitranslate="global.title" class="ng-star-inserted">Artemis</span>
+                        <!---->
+                        <!---->
+                    </div>
+                </div>
+            </div><!---->
+            <!---->
+            <!---->
+            <!---->
+        </div>
+    </div>
+</div>
+</jhi-notification-sidebar><!---->
+        <jhi-theme-switch _ngcontent-lgj-c100="" _nghost-lgj-c95=""><!---->
+<div _ngcontent-lgj-c95="" class="wrapper">
+    <div _ngcontent-lgj-c95="" class="toggle-popover-wrapper">
+        <div _ngcontent-lgj-c95="" id="theme-toggle" class="theme-toggle">
+            <svg _ngcontent-lgj-c95="" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" class="sun-and-moon">
+                <circle _ngcontent-lgj-c95="" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" class="sun"></circle>
+                <g _ngcontent-lgj-c95="" stroke="currentColor" class="sun-beams">
+                    <line _ngcontent-lgj-c95="" x1="12" y1="1" x2="12" y2="3"></line>
+                    <line _ngcontent-lgj-c95="" x1="12" y1="21" x2="12" y2="23"></line>
+                    <line _ngcontent-lgj-c95="" x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line _ngcontent-lgj-c95="" x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line _ngcontent-lgj-c95="" x1="1" y1="12" x2="3" y2="12"></line>
+                    <line _ngcontent-lgj-c95="" x1="21" y1="12" x2="23" y2="12"></line>
+                    <line _ngcontent-lgj-c95="" x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line _ngcontent-lgj-c95="" x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </g>
+                <mask _ngcontent-lgj-c95="" id="moon-mask" class="moon">
+                    <rect _ngcontent-lgj-c95="" x="0" y="0" width="100%" height="100%" fill="white"></rect>
+                    <circle _ngcontent-lgj-c95="" cx="24" cy="10" r="6" fill="black"></circle>
+                </mask>
+            </svg>
+        </div>
+    </div><!---->
+</div>
+</jhi-theme-switch>
+        <div _ngcontent-lgj-c100="" ngbdropdown="" display="dynamic" routerlinkactive="active" class="pointer ng-star-inserted dropdown">
+            <a _ngcontent-lgj-c100="" ngbdropdowntoggle="" id="account-menu" class="dropdown-toggle guided-tour-account nav-link" aria-expanded="false">
+                <span _ngcontent-lgj-c100="" class="ng-star-inserted">
+                    <fa-icon _ngcontent-lgj-c100="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path></svg></fa-icon>
+                    <!---->
+                    <span _ngcontent-lgj-c100="" class="ng-star-inserted">ge83tok</span><!---->
+                </span><!---->
+                <!---->
+            </a>
+            <ul _ngcontent-lgj-c100="" ngbdropdownmenu="" class="dropdown-menu dropdown-menu-index">
+                <li _ngcontent-lgj-c100="">
+                    <a _ngcontent-lgj-c100="" class="dropdown-item" href="https://artemis.in.tum.de/user-settings">
+                        <fa-icon _ngcontent-lgj-c100="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="gear" class="svg-inline--fa fa-gear fa-fw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"></path></svg></fa-icon>
+                        <span _ngcontent-lgj-c100="">Einstellungen</span>
+                    </a>
+                </li>
+                <div _ngcontent-lgj-c100="" class="dropdown-divider"></div>
+                <li _ngcontent-lgj-c100="">
+                    <h6 _ngcontent-lgj-c100="" jhitranslate="global.menu.language" class="dropdown-header fw-medium">Sprache</h6>
+                </li>
+                <div _ngcontent-lgj-c100="" class="ng-star-inserted">
+                    <li _ngcontent-lgj-c100="" class="ng-star-inserted">
+                        <a _ngcontent-lgj-c100="" class="dropdown-item">English</a>
+                    </li><li _ngcontent-lgj-c100="" class="ng-star-inserted">
+                        <a _ngcontent-lgj-c100="" class="dropdown-item active">Deutsch</a>
+                    </li><!---->
+                </div><!---->
+                <!---->
+                <div _ngcontent-lgj-c100="" class="dropdown-divider"></div>
+                <!---->
+                <!---->
+                <li _ngcontent-lgj-c100="">
+                    <a _ngcontent-lgj-c100="" id="logout" class="dropdown-item ng-star-inserted">
+                        <fa-icon _ngcontent-lgj-c100="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="right-from-bracket" class="svg-inline--fa fa-right-from-bracket fa-fw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path></svg></fa-icon>
+                        <span _ngcontent-lgj-c100="" jhitranslate="global.menu.account.logout">Abmelden</span>
+                    </a><!---->
+                </li>
+            </ul>
+        </div><!---->
+    </div>
+<!---->
+        <!----><!---->
+    </div>
+</nav>
+<jhi-system-notification _ngcontent-lgj-c100="" _nghost-lgj-c98=""><!---->
+</jhi-system-notification>
+<div _ngcontent-lgj-c100="" class="breadcrumb-container">
+    <div _ngcontent-lgj-c100="" class="ng-star-inserted">
+        <ol _ngcontent-lgj-c100="" class="breadcrumb">
+            <li _ngcontent-lgj-c100="" class="breadcrumb-item ng-star-inserted">
+                <a _ngcontent-lgj-c100="" routerlinkactive="active" class="breadcrumb-link ng-star-inserted" id="bread-crumb-0" href="https://artemis.in.tum.de/courses">Kurse</a><!---->
+                <!---->
+            </li><li _ngcontent-lgj-c100="" class="breadcrumb-item ng-star-inserted">
+                <!---->
+                <a _ngcontent-lgj-c100="" routerlinkactive="active" class="breadcrumb-link ng-star-inserted" id="bread-crumb-plain-1" href="https://artemis.in.tum.de/courses/201">Praktikum: Grundlagen der Programmierung WS22/23</a><!---->
+            </li><li _ngcontent-lgj-c100="" class="breadcrumb-item ng-star-inserted">
+                <a _ngcontent-lgj-c100="" routerlinkactive="active" class="breadcrumb-link ng-star-inserted" id="bread-crumb-2" href="https://artemis.in.tum.de/courses/201/exercises">Aufgaben</a><!---->
+                <!---->
+            </li><li _ngcontent-lgj-c100="" class="breadcrumb-item ng-star-inserted">
+                <!---->
+                <a _ngcontent-lgj-c100="" routerlinkactive="active" class="breadcrumb-link ng-star-inserted active" id="bread-crumb-plain-3" href="https://artemis.in.tum.de/courses/201/exercises/8494">W05H02 - The Pingu Network</a><!---->
+            </li><!---->
+        </ol>
+    </div><!---->
+</div>
+<jhi-guided-tour _ngcontent-lgj-c100=""><!---->
+<!---->
+<!---->
+</jhi-guided-tour>
+</jhi-navbar><!---->
+    </div>
+    <div class="card" style="border-style: none;">
+        <div class="card-body">
+            <router-outlet></router-outlet><jhi-course-exercise-details _nghost-lgj-c147="" class="ng-star-inserted"><div _ngcontent-lgj-c147="" class="ng-star-inserted">
+    
+    <jhi-header-exercise-page-with-details _ngcontent-lgj-c147="" _nghost-lgj-c117=""><div _ngcontent-lgj-c117="" id="exercise-header" class="course-info-bar ng-star-inserted">
+    <div _ngcontent-lgj-c117="" class="left-col">
+        <div _ngcontent-lgj-c117="" class="title-row">
+            <div _ngcontent-lgj-c117="" class="inner-row">
+                <fa-icon _ngcontent-lgj-c117="" class="ng-fa-icon ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="keyboard" class="svg-inline--fa fa-keyboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm16 64h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm80-176c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V144zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zM160 336c0-8.8 7.2-16 16-16H400c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V336zM272 128h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM256 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM368 128h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM352 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V240zM464 128h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V144c0-8.8 7.2-16 16-16zM448 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V240zm16 80h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H464c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16z"></path></svg></fa-icon><!----><!---->
+                &nbsp;
+                <span _ngcontent-lgj-c147="" pagetitle="">W05H02 - The Pingu Network</span>
+            </div>
+            <jhi-exercise-categories _ngcontent-lgj-c117="" _nghost-lgj-c77="" class="badge-row ng-star-inserted"><!---->
+<!---->
+<h4 _ngcontent-lgj-c77="" class="fw-medium ng-star-inserted">
+    <span _ngcontent-lgj-c77="" class="badge" style="background-color: rgb(105, 27, 11);">Hausaufgabe</span>
+</h4><!---->
+<h4 _ngcontent-lgj-c77="" class="fw-medium ng-star-inserted">
+    <jhi-difficulty-badge _ngcontent-lgj-c77=""><span class="badge bg-warning">Mittel</span>
+</jhi-difficulty-badge>
+</h4><!---->
+<!---->
+</jhi-exercise-categories><!---->
+        </div>
+        <div _ngcontent-lgj-c117="" class="points-assessment-row ng-star-inserted">
+            <span _ngcontent-lgj-c117="" class="ng-star-inserted" style="margin-right: 30px;">
+                <span _ngcontent-lgj-c117="" class="me-2">
+                    Punkte:
+                    
+                        6 von 
+                    <!----><!---->
+                    6
+                    <!---->
+                </span>
+                <!---->
+            </span><!---->
+            <span _ngcontent-lgj-c117="" class="ng-star-inserted">
+                <div _ngcontent-lgj-c117="">
+                    Bewertung:
+                    automatisch
+                    <fa-icon _ngcontent-lgj-c117="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-question" class="svg-inline--fa fa-circle-question" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V250.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H222.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"></path></svg></fa-icon><!---->
+                </div>
+            </span><!---->
+        </div><!---->
+        <!---->
+    </div>
+    <div _ngcontent-lgj-c117="" class="right-col">
+        
+            <!---->
+            <div _ngcontent-lgj-c117="" class="ng-star-inserted">
+                Abgabe bis:
+                <span _ngcontent-lgj-c117="" class="badge bg-danger">
+                    vor 6 Monaten
+                </span><!---->
+            </div><!---->
+            <!---->
+            <div _ngcontent-lgj-c117="" class="ng-star-inserted">
+                Beschwerde bis:
+                <span _ngcontent-lgj-c117="" class="badge bg-danger">
+                    vor 5 Monaten
+                </span><!---->
+            </div><!---->
+            <!---->
+        <!---->
+        <!---->
+    </div>
+</div><!---->
+</jhi-header-exercise-page-with-details>
+    
+    
+    <div _ngcontent-lgj-c147="" class="tab-bar tab-bar-exercise-details ps-3 pe-3 justify-content-end">
+        <jhi-exercise-details-student-actions _ngcontent-lgj-c147="" class="col ng-star-inserted" _nghost-lgj-c30=""><div _ngcontent-lgj-c30="">
+    
+    <!---->
+    
+
+    
+    <!---->
+    
+
+    
+    
+        
+        <div _ngcontent-lgj-c30="" class="btn-group gap-1 ng-star-inserted">
+            <!---->
+            <span _ngcontent-lgj-c30="" tabindex="0">
+                <!---->
+            </span><!---->
+            <jhi-start-practice-mode-button _ngcontent-lgj-c30="" class="start-practice ng-star-inserted" _nghost-lgj-c28="" id="start-practice-8494">
+    <button _ngcontent-lgj-c28="" jhi-exercise-action-button="" placement="right auto" container="body" _nghost-lgj-c26="" class="btn btn-primary"><div _ngcontent-lgj-c26="">
+    <fa-icon _ngcontent-lgj-c26="" class="ng-fa-icon ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-rotate-right" class="svg-inline--fa fa-arrow-rotate-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M386.3 160H336c-17.7 0-32 14.3-32 32s14.3 32 32 32H464c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v51.2L414.4 97.6c-87.5-87.5-229.3-87.5-316.8 0s-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3s163.8-62.5 226.3 0L386.3 160z"></path></svg></fa-icon><!---->
+    &nbsp;
+    <span _ngcontent-lgj-c26="">Üben</span>
+</div>
+<fa-icon _ngcontent-lgj-c26="" class="ng-fa-icon" hidden=""><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-notch" class="svg-inline--fa fa-circle-notch fa-spin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M222.7 32.1c5 16.9-4.6 34.8-21.5 39.8C121.8 95.6 64 169.1 64 256c0 106 86 192 192 192s192-86 192-192c0-86.9-57.8-160.4-137.1-184.1c-16.9-5-26.6-22.9-21.5-39.8s22.9-26.6 39.8-21.5C434.9 42.1 512 140 512 256c0 141.4-114.6 256-256 256S0 397.4 0 256C0 140 77.1 42.1 182.9 10.6c16.9-5 34.8 4.6 39.8 21.5z"></path></svg></fa-icon>
+</button><!---->
+    <!---->
+<!---->
+</jhi-start-practice-mode-button><!---->
+
+            
+            
+                
+                    <!---->
+
+                    <jhi-clone-repo-button _ngcontent-lgj-c30="" _nghost-lgj-c27="" class="ng-star-inserted">
+    <button _ngcontent-lgj-c27="" jhi-exercise-action-button="" placement="right auto" container="body" class="clone-repository btn btn-primary" _nghost-lgj-c26=""><div _ngcontent-lgj-c26="">
+    <fa-icon _ngcontent-lgj-c26="" class="ng-fa-icon ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" class="svg-inline--fa fa-download" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg></fa-icon><!---->
+    &nbsp;
+    <span _ngcontent-lgj-c26="">Repository klonen</span>
+</div>
+<fa-icon _ngcontent-lgj-c26="" class="ng-fa-icon" hidden=""><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-notch" class="svg-inline--fa fa-circle-notch fa-spin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M222.7 32.1c5 16.9-4.6 34.8-21.5 39.8C121.8 95.6 64 169.1 64 256c0 106 86 192 192 192s192-86 192-192c0-86.9-57.8-160.4-137.1-184.1c-16.9-5-26.6-22.9-21.5-39.8s22.9-26.6 39.8-21.5C434.9 42.1 512 140 512 256c0 141.4-114.6 256-256 256S0 397.4 0 256C0 140 77.1 42.1 182.9 10.6c16.9-5 34.8 4.6 39.8 21.5z"></path></svg></fa-icon>
+</button><!---->
+    <!---->
+<!---->
+</jhi-clone-repo-button><!---->
+
+                    <!---->
+                <!----><!---->
+            <!----><!---->
+            
+            <!---->
+            <!---->
+            <!---->
+        </div>
+        
+    <!----><!---->
+    
+
+    
+    <!---->
+    
+
+    
+    <!---->
+    
+</div>
+</jhi-exercise-details-student-actions><!---->
+
+        <!---->
+
+        <div _ngcontent-lgj-c147="" class="d-flex flex-column gap-2">
+            <div _ngcontent-lgj-c147="" class="col-auto">
+                <jhi-submission-result-status _ngcontent-lgj-c147="" class="d-flex justify-content-end"><div class="col-auto">
+    
+        
+        <span class="ng-star-inserted">
+            <jhi-updating-result id="submission-result-graded"><jhi-result id="result" _nghost-lgj-c71="">
+
+    <!---->
+    
+        
+            <fa-icon _ngcontent-lgj-c71="" size="lg" class="ng-fa-icon result-score-icon text-success ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></fa-icon><!---->
+            <span _ngcontent-lgj-c71="" id="result-score" class="guided-tour result clickable-result text-success ng-star-inserted">
+                <span _ngcontent-lgj-c71="" class="guided-tour result clickable-result">
+                    100%
+                </span><!---->
+                <span _ngcontent-lgj-c71="" class="result clickable-result">
+                    (vor 6 Monaten)
+                </span><!---->
+            </span>
+            <!---->
+
+            <span _ngcontent-lgj-c71="" id="result-score-badge" class="badge bg-success ng-star-inserted">
+                BEWERTET
+            </span><!----><!---->
+        <!----><!---->
+    <!----><!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+<!---->
+</jhi-result>
+</jhi-updating-result>
+        </span>
+    <!----><!---->
+    <!---->
+
+    
+    
+        <jhi-programming-exercise-student-trigger-build-button class="ng-star-inserted"><!---->
+</jhi-programming-exercise-student-trigger-build-button>
+    <!----><!---->
+</div>
+</jhi-submission-result-status>
+            </div>
+            <!---->
+        </div>
+    </div>
+
+    <div _ngcontent-lgj-c147="" class="row">
+        <div _ngcontent-lgj-c147="" class="col flex-grow-1">
+            
+            
+            <div _ngcontent-lgj-c147="" class="row ng-star-inserted">
+                <div _ngcontent-lgj-c147="" class="row mb-2 mt-2 align-items-baseline d-none d-md-flex">
+                    <div _ngcontent-lgj-c147="" class="col-auto">
+                        <h3 _ngcontent-lgj-c147="">Aktuelle Ergebnisse:</h3>
+                    </div>
+                </div>
+                <div _ngcontent-lgj-c147="" class="row">
+                    <jhi-result-history _ngcontent-lgj-c147="" _nghost-lgj-c115=""><div _ngcontent-lgj-c115="" class="result-history-wrapper">
+    <div _ngcontent-lgj-c115="" class="result-history-element previous-history-element">
+        <div _ngcontent-lgj-c115="" class="result-divider"></div>
+    </div>
+    <div _ngcontent-lgj-c115="" class="result-history-element ng-star-inserted">
+        <div _ngcontent-lgj-c115="" class="result-score">
+            <div _ngcontent-lgj-c115="" class="result-score-icon text-danger">
+                <fa-icon _ngcontent-lgj-c115="" size="xl" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-xmark" class="svg-inline--fa fa-circle-xmark fa-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"></path></svg></fa-icon>
+            </div>
+            <jhi-result _ngcontent-lgj-c115="" class="result-score-info text-center" _nghost-lgj-c71="">
+
+    <!---->
+    
+        
+            <!---->
+            <span _ngcontent-lgj-c71="" id="result-score" class="guided-tour result clickable-result text-danger ng-star-inserted">
+                <span _ngcontent-lgj-c71="" class="guided-tour result clickable-result">
+                    0%
+                </span><!---->
+                <span _ngcontent-lgj-c71="" class="result clickable-result">
+                    (vor 6 Monaten)
+                </span><!---->
+            </span>
+            <!---->
+
+            <span _ngcontent-lgj-c71="" id="result-score-badge" class="badge bg-success ng-star-inserted">
+                BEWERTET
+            </span><!----><!---->
+        <!----><!---->
+    <!----><!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+<!---->
+</jhi-result>
+        </div>
+        <div _ngcontent-lgj-c115="" class="result-divider"></div>
+    </div><div _ngcontent-lgj-c115="" class="result-history-element ng-star-inserted">
+        <div _ngcontent-lgj-c115="" class="result-score">
+            <div _ngcontent-lgj-c115="" class="result-score-icon text-danger">
+                <fa-icon _ngcontent-lgj-c115="" size="xl" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-xmark" class="svg-inline--fa fa-circle-xmark fa-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"></path></svg></fa-icon>
+            </div>
+            <jhi-result _ngcontent-lgj-c115="" class="result-score-info text-center" _nghost-lgj-c71="">
+
+    <!---->
+    
+        
+            <!---->
+            <span _ngcontent-lgj-c71="" id="result-score" class="guided-tour result clickable-result text-danger ng-star-inserted">
+                <span _ngcontent-lgj-c71="" class="guided-tour result clickable-result">
+                    0%
+                </span><!---->
+                <span _ngcontent-lgj-c71="" class="result clickable-result">
+                    (vor 6 Monaten)
+                </span><!---->
+            </span>
+            <!---->
+
+            <span _ngcontent-lgj-c71="" id="result-score-badge" class="badge bg-success ng-star-inserted">
+                BEWERTET
+            </span><!----><!---->
+        <!----><!---->
+    <!----><!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+<!---->
+</jhi-result>
+        </div>
+        <div _ngcontent-lgj-c115="" class="result-divider"></div>
+    </div><div _ngcontent-lgj-c115="" class="result-history-element ng-star-inserted">
+        <div _ngcontent-lgj-c115="" class="result-score">
+            <div _ngcontent-lgj-c115="" class="result-score-icon text-danger">
+                <fa-icon _ngcontent-lgj-c115="" size="xl" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-xmark" class="svg-inline--fa fa-circle-xmark fa-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"></path></svg></fa-icon>
+            </div>
+            <jhi-result _ngcontent-lgj-c115="" class="result-score-info text-center" _nghost-lgj-c71="">
+
+    <!---->
+    
+        
+            <!---->
+            <span _ngcontent-lgj-c71="" id="result-score" class="guided-tour result clickable-result text-danger ng-star-inserted">
+                <span _ngcontent-lgj-c71="" class="guided-tour result clickable-result">
+                    0%
+                </span><!---->
+                <span _ngcontent-lgj-c71="" class="result clickable-result">
+                    (vor 6 Monaten)
+                </span><!---->
+            </span>
+            <!---->
+
+            <span _ngcontent-lgj-c71="" id="result-score-badge" class="badge bg-success ng-star-inserted">
+                BEWERTET
+            </span><!----><!---->
+        <!----><!---->
+    <!----><!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+<!---->
+</jhi-result>
+        </div>
+        <div _ngcontent-lgj-c115="" class="result-divider"></div>
+    </div><div _ngcontent-lgj-c115="" class="result-history-element ng-star-inserted">
+        <div _ngcontent-lgj-c115="" class="result-score">
+            <div _ngcontent-lgj-c115="" class="result-score-icon text-success">
+                <fa-icon _ngcontent-lgj-c115="" size="xl" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></fa-icon>
+            </div>
+            <jhi-result _ngcontent-lgj-c115="" class="result-score-info text-center" _nghost-lgj-c71="">
+
+    <!---->
+    
+        
+            <!---->
+            <span _ngcontent-lgj-c71="" id="result-score" class="guided-tour result clickable-result text-success ng-star-inserted">
+                <span _ngcontent-lgj-c71="" class="guided-tour result clickable-result">
+                    83.33%
+                </span><!---->
+                <span _ngcontent-lgj-c71="" class="result clickable-result">
+                    (vor 6 Monaten)
+                </span><!---->
+            </span>
+            <!---->
+
+            <span _ngcontent-lgj-c71="" id="result-score-badge" class="badge bg-success ng-star-inserted">
+                BEWERTET
+            </span><!----><!---->
+        <!----><!---->
+    <!----><!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+<!---->
+</jhi-result>
+        </div>
+        <div _ngcontent-lgj-c115="" class="result-divider"></div>
+    </div><div _ngcontent-lgj-c115="" class="result-history-element ng-star-inserted">
+        <div _ngcontent-lgj-c115="" class="result-score">
+            <div _ngcontent-lgj-c115="" class="result-score-icon text-success">
+                <fa-icon _ngcontent-lgj-c115="" size="xl" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></fa-icon>
+            </div>
+            <jhi-result _ngcontent-lgj-c115="" class="result-score-info text-center" _nghost-lgj-c71="">
+
+    <!---->
+    
+        
+            <!---->
+            <span _ngcontent-lgj-c71="" id="result-score" class="guided-tour result clickable-result text-success ng-star-inserted">
+                <span _ngcontent-lgj-c71="" class="guided-tour result clickable-result">
+                    100%
+                </span><!---->
+                <span _ngcontent-lgj-c71="" class="result clickable-result">
+                    (vor 6 Monaten)
+                </span><!---->
+            </span>
+            <!---->
+
+            <span _ngcontent-lgj-c71="" id="result-score-badge" class="badge bg-success ng-star-inserted">
+                BEWERTET
+            </span><!----><!---->
+        <!----><!---->
+    <!----><!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+<!---->
+</jhi-result>
+        </div>
+        <div _ngcontent-lgj-c115="" class="result-divider"></div>
+    </div><!---->
+</div>
+</jhi-result-history>
+                </div>
+                <div _ngcontent-lgj-c147="" class="row mb-2 mt-2 align-items-baseline">
+                    <div _ngcontent-lgj-c147="" class="col-auto">
+                        <a _ngcontent-lgj-c147="" class="text-primary">
+                            Alle Ergebnisse anzeigen
+                            <fa-icon _ngcontent-lgj-c147="" class="ng-fa-icon"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg></fa-icon>
+                        </a>
+                    </div>
+                </div>
+                <!---->
+            </div><!---->
+            
+            
+            <div _ngcontent-lgj-c147="" class="row mb-4 ng-star-inserted">
+                <jhi-programming-exercise-instructions _ngcontent-lgj-c147="" _nghost-lgj-c127=""><div _ngcontent-lgj-c127="" class="instructions__content border-0 ng-star-inserted">
+    <jhi-programming-exercise-instructions-step-wizard _ngcontent-lgj-c127="" _nghost-lgj-c126=""><div _ngcontent-lgj-c126="" class="card-second-header">
+    <div _ngcontent-lgj-c126="" class="stepwizard">
+        <div _ngcontent-lgj-c126="" class="stepwizard-row">
+            <div _ngcontent-lgj-c126="" class="stepwizard-title">
+                Teilaufgaben:
+            </div>
+            <div _ngcontent-lgj-c126="" class="stepwizard-step ng-star-inserted">
+                
+                <div _ngcontent-lgj-c126="" class="btn btn-circle stepwizard-step--success">
+                    <fa-icon _ngcontent-lgj-c126="" size="lg" class="ng-fa-icon text-success ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"></path></svg></fa-icon><!---->
+                    <!---->
+                    <!---->
+                </div><!---->
+            </div><!---->
+        </div>
+    </div>
+</div>
+</jhi-programming-exercise-instructions-step-wizard>
+    
+    <div _ngcontent-lgj-c127="" id="programming-exercise-instructions-content" class="guided-tour instructions__content__markdown markdown-preview"><h3 id="thepingunetwork">The Pingu Network</h3>
+<p>Der Pinguin Mark freut sich darüber, dass er so viele neue Freunde an der PUM findet. 
+Leider muss er feststellen, dass die bisherige Methode, mit der er seine Freunde verwaltet, nicht mehr ausreicht. 
+Der Zettel unter seinem Flügel ist schon sehr voll und man kann teilweise die Einträge nicht mehr richtig lesen. </p>
+<p>Um sich das Ganze zu vereinfachen, hat Mark ein soziales Netz erdacht.
+Hier hat er eine Übersicht über seine Freunde und kann sich mit ihnen austauschen.</p>
+<p>Zur Umsetzung des Projektes hat Mark bereits ein UML-Diagramm entworfen, das das soziale Netz modellieren soll.
+Zudem hat er eine Spezifikation verfasst, was die jeweiligen Klassen tun sollen.
+Er hat auch einige Teile davon schon implementiert, hängt jetzt aber an ein Paar noch übrig gebliebenen Teilen des Diagramms fest.
+Kannst du ihm da weiterhelfen?</p>
+<h4 id="diagramm">Diagramm</h4>
+<p>Das folgende Diagramm stellt die Klassenstruktur des Netzwerks dar. 
+Alle Attribute, welche mehrere Elemente speichern können, sollen als Array implementiert werden.
+Jedes Array ist genau so groß wie die Anzahl an Elementen, die es enthält. 
+Somit gibt es keine leeren Stellen und bei Veränderungen muss ein neues Array erstellt werden.
+Der Konstruktor für jede Klasse soll alle Attribute, welche keine Arrays sind, als Parameter übernehmen und zwar in genau der Reihenfolge, in der sie im UML-Diagramm aufgelistet sind.
+Die Arrays sollen als leere Arrays mit Größe 0 initialisiert werden. Diese beiden Dinge gelten natürlich nur dann, wenn die Spezifikation nicht explizit Anderes verlangt.</p>
+<h5 id="spanclassredhinweisespan"><span class="red"><em>Hinweise:</em></span></h5>
+<ul>
+<li>Das Programm soll absturzsicher geschrieben werden. Insbesondere betrifft das die verwendeten Arrays. Egal, welche <code>User</code>-, <code>Post</code>- etc. Objekte also den jeweiligen <code>add</code> und <code>remove</code> Methoden übergeben wird, sollte sichergestellt sein, dass das Array nie an unzulässigen Stellen (<code>&lt; 0</code> und <code>&gt;= array.length</code>) zugegriffen werden.</li>
+<li>Die im Diagramm farbig hervorgehobenen Member müssen noch implementiert werden. Sie sind <span style="color:grey">grau</span> oder <span class="red">rot</span>, solange sie noch nicht vorhanden sind, <span class="green">grün</span>, sobald sie vorhanden sind. <span class="green">Grüne</span> Farbe bedeutet also nur, dass der korrekte Methodenkopf erkannt wurde und noch nicht, dass die Methode auch korrekt implementiert wurde. Das musst du selbst testen.</li>
+<li>Du solltest die bereits im Template implementierten Methoden (d.h. solche, die nicht leer sind und bei denen nicht explizit ein <code>TODO</code> dransteht) nicht verändern. Wenn du das doch tust, tust du es auf eigene Gefahr hin, dass bestimmte Tests dann nicht mehr funktionieren.</li>
+<li>Konstruktoren und Attribute musst du teils anpassen; teils musst du auch neue Methoden hinzufügen.</li>
+<li>Ihr dürft bei allen übergebenen Objekten davon ausgehen, dass diese nicht <code>null</code> sind.</li>
+<li>Die Tests sind nicht 100% unabhängig von einander. Es kann also vorkommen, dass ein User Test failed, der Fehler aber in einer anderen Klasse liegt.</li>
+</ul>
+<div id="plantUml-0" class="mb-4"><svg zoomAndPan="magnify" width="857px" viewBox="0 0 857 664" version="1.1" style="width:857px;height:664px;background:#FFFFFF;" preserveAspectRatio="none" height="664px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><defs></defs><g><g id="elem_Picture"><rect y="543" x="75.34" width="134" style="stroke:#000000;stroke-width:0.5;" ry="2.5" rx="2.5" id="Picture" height="114.5" fill="#FFFFFF"></rect><ellipse style="stroke:#181818;stroke-width:1.0;" ry="11" rx="11" fill="#ADD1B2" cy="559" cx="111.94"></ellipse><path fill="#000000" d="M114.9088,564.6406 Q114.3306,564.9375 113.69,565.0781 Q113.0494,565.2344 112.3463,565.2344 Q109.8463,565.2344 108.5181,563.5938 Q107.2056,561.9375 107.2056,558.8125 Q107.2056,555.6875 108.5181,554.0313 Q109.8463,552.375 112.3463,552.375 Q113.0494,552.375 113.69,552.5313 Q114.3463,552.6875 114.9088,552.9844 L114.9088,555.7031 Q114.2838,555.125 113.69,554.8594 Q113.0963,554.5781 112.4713,554.5781 Q111.1275,554.5781 110.44,555.6563 Q109.7525,556.7188 109.7525,558.8125 Q109.7525,560.9063 110.44,561.9844 Q111.1275,563.0469 112.4713,563.0469 Q113.0963,563.0469 113.69,562.7813 Q114.2838,562.5 114.9088,561.9219 L114.9088,564.6406 Z"></path><text y="564.5391" x="130.74" textLength="54" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">Picture</text><line y2="575" y1="575" x2="208.34" x1="76.34" style="stroke:#000000;stroke-width:0.5;"></line><text y="593.8516" x="81.34" textLength="122" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">-location: String</text><text y="612.4766" x="81.34" textLength="77" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">-width: int</text><text y="631.1016" x="81.34" textLength="83" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">-height: int</text><text y="649.7266" x="81.34" textLength="93" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">-data: int[][]</text></g><g id="elem_Group"><rect y="312.5" x="157.84" width="217" style="stroke:#000000;stroke-width:0.5;" ry="2.5" rx="2.5" id="Group" height="141.125" fill="#FFFFFF"></rect><ellipse style="stroke:#181818;stroke-width:1.0;" ry="11" rx="11" fill="#ADD1B2" cy="328.5" cx="237.59"></ellipse><path fill="#000000" d="M240.5587,334.1406 Q239.9806,334.4375 239.34,334.5781 Q238.6994,334.7344 237.9962,334.7344 Q235.4962,334.7344 234.1681,333.0938 Q232.8556,331.4375 232.8556,328.3125 Q232.8556,325.1875 234.1681,323.5313 Q235.4962,321.875 237.9962,321.875 Q238.6994,321.875 239.34,322.0313 Q239.9962,322.1875 240.5587,322.4844 L240.5587,325.2031 Q239.9337,324.625 239.34,324.3594 Q238.7462,324.0781 238.1212,324.0781 Q236.7775,324.0781 236.09,325.1563 Q235.4025,326.2188 235.4025,328.3125 Q235.4025,330.4063 236.09,331.4844 Q236.7775,332.5469 238.1212,332.5469 Q238.7462,332.5469 239.34,332.2813 Q239.9337,332 240.5587,331.4219 L240.5587,334.1406 Z"></path><text y="334.0391" x="258.09" textLength="49" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">Group</text><line y2="344.5" y1="344.5" x2="373.84" x1="158.84" style="stroke:#000000;stroke-width:0.5;"></line><text y="363.3516" x="163.84" textLength="105" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-name: String</text><text y="381.9766" x="163.84" textLength="148" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-description: String</text><text y="400.6016" x="163.84" textLength="102" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-owner: User</text><line y2="408.375" y1="408.375" x2="373.84" x1="158.84" style="stroke:#000000;stroke-width:0.5;"></line><text y="427.2266" x="163.84" textLength="175" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+addUser(User) : void</text><text y="445.8516" x="163.84" textLength="205" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">+removeUser(User) : void</text></g><g id="elem_Post"><rect y="303" x="409.84" width="311" style="stroke:#000000;stroke-width:0.5;" ry="2.5" rx="2.5" id="Post" height="159.75" fill="#FFFFFF"></rect><ellipse style="stroke:#181818;stroke-width:1.0;" ry="11" rx="11" fill="#ADD1B2" cy="319" cx="543.59"></ellipse><path fill="#000000" d="M546.5588,324.6406 Q545.9806,324.9375 545.34,325.0781 Q544.6994,325.2344 543.9963,325.2344 Q541.4963,325.2344 540.1681,323.5938 Q538.8556,321.9375 538.8556,318.8125 Q538.8556,315.6875 540.1681,314.0313 Q541.4963,312.375 543.9963,312.375 Q544.6994,312.375 545.34,312.5313 Q545.9963,312.6875 546.5588,312.9844 L546.5588,315.7031 Q545.9338,315.125 545.34,314.8594 Q544.7463,314.5781 544.1213,314.5781 Q542.7775,314.5781 542.09,315.6563 Q541.4025,316.7188 541.4025,318.8125 Q541.4025,320.9063 542.09,321.9844 Q542.7775,323.0469 544.1213,323.0469 Q544.7463,323.0469 545.34,322.7813 Q545.9338,322.5 546.5588,321.9219 L546.5588,324.6406 Z"></path><text y="324.5391" x="564.09" textLength="35" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">Post</text><line y2="335" y1="335" x2="719.84" x1="410.84" style="stroke:#000000;stroke-width:0.5;"></line><text y="353.8516" x="415.84" textLength="89" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-title: String</text><text y="372.4766" x="415.84" textLength="122" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-content: String</text><line y2="380.25" y1="380.25" x2="719.84" x1="410.84" style="stroke:#000000;stroke-width:0.5;"></line><text y="399.1016" x="415.84" textLength="269" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+addInteraction(Interaction) : void</text><text y="417.7266" x="415.84" textLength="299" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+removeInteraction(Interaction) : void</text><text y="436.3516" x="415.84" textLength="212" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+addComment(Post) : void</text><text y="454.9766" x="415.84" textLength="242" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+removeComment(Post) : void</text></g><g id="elem_Interaction"><rect y="562" x="482.34" width="166" style="stroke:#000000;stroke-width:0.5;" ry="2.5" rx="2.5" id="Interaction" height="77.25" fill="#FFFFFF"></rect><ellipse style="stroke:#181818;stroke-width:1.0;" ry="11" rx="11" fill="#ADD1B2" cy="578" cx="519.84"></ellipse><path fill="#000000" d="M522.8088,583.6406 Q522.2306,583.9375 521.59,584.0781 Q520.9494,584.2344 520.2463,584.2344 Q517.7463,584.2344 516.4181,582.5938 Q515.1056,580.9375 515.1056,577.8125 Q515.1056,574.6875 516.4181,573.0313 Q517.7463,571.375 520.2463,571.375 Q520.9494,571.375 521.59,571.5313 Q522.2463,571.6875 522.8088,571.9844 L522.8088,574.7031 Q522.1838,574.125 521.59,573.8594 Q520.9963,573.5781 520.3713,573.5781 Q519.0275,573.5781 518.34,574.6563 Q517.6525,575.7188 517.6525,577.8125 Q517.6525,579.9063 518.34,580.9844 Q519.0275,582.0469 520.3713,582.0469 Q520.9963,582.0469 521.59,581.7813 Q522.1838,581.5 522.8088,580.9219 L522.8088,583.6406 Z"></path><text y="583.5391" x="538.84" textLength="84" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">Interaction</text><line y2="594" y1="594" x2="647.34" x1="483.34" style="stroke:#000000;stroke-width:0.5;"></line><text y="612.8516" x="488.34" textLength="88" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">-user: User</text><text y="631.4766" x="488.34" textLength="154" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">-interactionType: int</text></g><g id="elem_User"><rect y="7" x="110.84" width="305" style="stroke:#000000;stroke-width:0.5;" ry="2.5" rx="2.5" id="User" height="215.625" fill="#FFFFFF"></rect><ellipse style="stroke:#181818;stroke-width:1.0;" ry="11" rx="11" fill="#ADD1B2" cy="23" cx="240.59"></ellipse><path fill="#000000" d="M243.5588,28.6406 Q242.9806,28.9375 242.34,29.0781 Q241.6994,29.2344 240.9963,29.2344 Q238.4963,29.2344 237.1681,27.5938 Q235.8556,25.9375 235.8556,22.8125 Q235.8556,19.6875 237.1681,18.0313 Q238.4963,16.375 240.9963,16.375 Q241.6994,16.375 242.34,16.5313 Q242.9963,16.6875 243.5588,16.9844 L243.5588,19.7031 Q242.9338,19.125 242.34,18.8594 Q241.7463,18.5781 241.1213,18.5781 Q239.7775,18.5781 239.09,19.6563 Q238.4025,20.7188 238.4025,22.8125 Q238.4025,24.9063 239.09,25.9844 Q239.7775,27.0469 241.1213,27.0469 Q241.7463,27.0469 242.34,26.7813 Q242.9338,26.5 243.5588,25.9219 L243.5588,28.6406 Z"></path><text y="28.5391" x="261.09" textLength="37" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">User</text><line y2="39" y1="39" x2="414.84" x1="111.84" style="stroke:#000000;stroke-width:0.5;"></line><text y="57.8516" x="116.84" textLength="105" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-name: String</text><text y="76.4766" x="116.84" textLength="148" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">-description: String</text><line y2="84.25" y1="84.25" x2="414.84" x1="111.84" style="stroke:#000000;stroke-width:0.5;"></line><text y="103.1016" x="116.84" textLength="186" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+addFriend(User) : void</text><text y="121.7266" x="116.84" textLength="216" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+removeFriend(User) : void</text><text y="140.3516" x="116.84" textLength="196" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+joinGroup(Group) : void</text><text y="158.9766" x="116.84" textLength="209" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">+leaveGroup(Group) : void</text><text y="177.6016" x="116.84" textLength="195" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">+interact(Post, int) : void</text><text y="196.2266" x="116.84" textLength="209" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">+post(String, String) : void</text><text y="214.8516" x="116.84" textLength="293" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">+comment(Post, String, String) : void</text></g><g id="link_User_User"><path style="stroke:#000000;stroke-width:1.0;" id="User-backto-User" fill="none" d="M428.64,93.59 C442.33,98.21 450.84,105.35 450.84,115 C450.84,127.36 436.9,135.59 416,139.69"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="416,90.31,420.8007,95.6908,427.6141,93.3289,422.8133,87.9481,416,90.31" fill="none"></polygon><text y="120.8516" x="456.84" textLength="54" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">friends</text><text y="85.5539" x="423.6367" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="137.3258" x="423.6367" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text></g><g id="link_User_Group"><path style="stroke:#000000;stroke-width:1.0;" id="User-backto-Group" fill="none" d="M209.28,236.6 C208.06,248.82 208.51,261.1 211.34,273 C214.48,286.2 219.49,299.61 225.23,312.3"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="211.22,223.4,206.3925,228.7568,209.4805,235.2733,214.308,229.9165,211.22,223.4" fill="none"></polygon><text y="268.8516" x="212.34" textLength="56" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">groups</text><text y="245.4361" x="197.7393" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="300.9583" x="210.4749" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text></g><g id="link_User_Group"><path style="stroke:#000000;stroke-width:1.0;" id="User-to-Group" fill="none" d="M272.91,223.21 C273.6,239.87 273.86,256.89 273.34,273 C273.07,281.43 272.68,290.23 272.22,299"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="271.49,312.25,275.8202,306.4838,272.1629,300.2689,267.8328,306.0351,271.49,312.25" fill="none"></polygon><text y="268.8516" x="275.34" textLength="74" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">members</text><text y="245.6024" x="263.2028" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text><text y="300.9031" x="261.5055" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text></g><g id="link_User_Picture"><path style="stroke:#000000;stroke-width:1.0;" id="User-backto-Picture" fill="none" d="M101.01,218.54 C74.81,242.85 51.38,271.13 36.34,303 C6,367.31 13.29,395.73 36.34,463 C46.36,492.24 65.47,520.04 84.75,542.84"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="110.78,209.76,103.6433,210.793,101.852,217.7781,108.9887,216.7451,110.78,209.76" fill="none"></polygon><text y="388.8516" x="37.34" textLength="102" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">profilePicture</text><text y="211.0593" x="92.6558" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="531.2228" x="66.7307" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text></g><g id="link_User_Post"><path style="stroke:#000000;stroke-width:1.0;" id="User-backto-Post" fill="none" d="M394.87,231.85 C422.14,255.87 450.28,280.65 475.63,302.99"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="384.87,223.04,386.732,230.0066,393.8788,230.9672,392.0168,224.0007,384.87,223.04" fill="none"></polygon><text y="268.8516" x="443.34" textLength="44" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">posts</text><text y="245.4215" x="382.3352" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="291.1227" x="456.307" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text></g><g id="link_Post_Post"><path style="stroke:#000000;stroke-width:1.0;" id="Post-backto-Post" fill="none" d="M734.18,365.89 C747.56,369.64 755.84,375.34 755.84,383 C755.84,392.9 742,399.54 721.18,402.9"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="721.18,363.1,726.2071,368.2699,732.9129,365.618,727.8857,360.448,721.18,363.1" fill="none"></polygon><text y="388.8516" x="761.84" textLength="83" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">comments</text><text y="358.5729" x="728.9707" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="400.3007" x="728.9707" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text></g><g id="link_Post_Interaction"><path style="stroke:#000000;stroke-width:1.0;" id="Post-backto-Interaction" fill="none" d="M565.34,476.25 C565.34,506.35 565.34,538.1 565.34,561.84"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="565.34,463.02,561.34,469.02,565.34,475.02,569.34,469.02,565.34,463.02" fill="none"></polygon><text y="508.8516" x="566.34" textLength="91" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">interactions</text><text y="485.5593" x="554.9103" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="550.2355" x="554.4494" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text></g><g id="link_Group_Picture"><path style="stroke:#000000;stroke-width:1.0;" id="Group-backto-Picture" fill="none" d="M219.74,464.98 C204.86,490.84 188.72,518.89 175.05,542.66"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="226.25,453.67,219.7906,456.8756,220.2651,464.071,226.7246,460.8655,226.25,453.67" fill="none"></polygon><text y="508.8516" x="202.34" textLength="54" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#008000">picture</text><text y="476.3887" x="211.8115" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="531.0198" x="168.6003" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text></g><g id="link_Picture_Picture"><path style="stroke:#000000;stroke-width:1.0;" id="Picture-backto-Picture" fill="none" d="M222.85,583.95 C235.62,586.39 244.34,591.9 244.34,600.5 C244.34,611.84 229.15,617.83 209.54,618.45"></path><polygon style="stroke:#000000;stroke-width:1.0;" points="209.54,582.55,215.0896,587.1545,221.4744,583.8028,215.9248,579.1983,209.54,582.55" fill="none"></polygon><text y="606.3516" x="250.34" textLength="85" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">thumbnails</text><text y="576.5154" x="217.4369" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">1</text><text y="616.342" x="217.4369" textLength="10" lengthAdjust="spacing" font-size="16" font-family="sans-serif" fill="#000000">n</text></g></g></svg></div>
+<h4 id="kurzbeschreibungdereinzelnenklassen">Kurzbeschreibung der einzelnen Klassen</h4>
+<p>Hier findest du eine kurze Beschreibung der verschiedenen im UML-Diagramm dargestellten Klassen und von deren Membern. Sowohl der bereits implementierten Teile, als auch der noch zu implementierenden.
+Wenn beim Einfügen in Arrays überprüft werden soll, ob ein Objekt bereits vorhanden ist, kann das einzufügende Objekt mit den vorhandenen mit <code>==</code> verglichen werden. Es gilt also nur, herauszufinden,
+ob wirklich das exakt gleiche Objekt bereits im Array ist.</p>
+<h5 id="klasseuser">Klasse <code>User</code></h5>
+<ol>
+<li>Zusätzlich zu den im Diagramm beschriebenen Methoden sollen Getter für alle Attribute und Setter für alle Attribute, welche keine Arrays sind, existieren. <br></li>
+<li>Die <code>addFriend</code>/<code>removeFriend</code> Methoden fügen den spezifizierten Nutzer zur eigenen Freundesliste hinzu bzw. entfernen ihn wieder. 
+Am anderen Nutzer ändert sich nichts.
+Derselbe Nutzer (Objektgleichheit!) soll nicht doppelt gespeichert werden falls er wiederholt hinzugefügt wird. <br></li>
+<li>Ähnlich fügen die <code>joinGroup</code>/<code>leaveGroup</code> Methoden die spezifizierte Gruppe zu der Liste an beigetretenen Gruppen hinzu oder entfernt sie. 
+Zudem wird der Nutzer den Mitgliedern der Gruppe hinzugefügt bzw. aus diesen entfernt.
+Dieselbe Gruppe (simile) soll nicht doppelt gespeichert werden, falls sie wiederholt hinzugefügt wird.  <br></li>
+<li>Die <code>interact</code> Methode erstellt eine neue <code>Interaction</code> mit dem übergebenen <code>int</code> <code>interactionType</code> und fügt diese dem übergebenen Post hinzu. <br></li>
+<li>Mit der <code>post</code> Methode wird ein neuer <code>Post</code> mit einem übergebenen Titel und Inhalt erstellt und zum Array eigener Posts hinzugefügt. <br></li>
+<li>Die <code>comment</code> Methode funktioniert wie die <code>post</code> Methode, nur dass der neu erstellte <code>Comment</code> zudem als Kommentar dem übergebenen <code>Post</code> angefügt wird.</li>
+</ol>
+<h5 id="klassepost">Klasse <code>Post</code></h5>
+<ol>
+<li>Zusätzlich zu den im Diagramm beschriebenen Methoden sollen Getter für alle Attribute und Setter für alle Attribute, welche keine Array sind, existieren. <br></li>
+<li>Mit <code>addInteraction</code>/<code>removeInteraction</code> wird die übergebene Interaktion in das Array der Interaktionen des Posts hinzugefügt oder aus dieser entfernt. 
+Dieselbe Interaktion soll nicht doppelt gespeichert werden, falls sie wiederholt hinzugefügt wird. <br></li>
+<li>Gleiches gilt für <code>addComment</code>/<code>removeComment</code>, nur eben mit übergebenen Posts.</li>
+</ol>
+<h5 id="klassegroup">Klasse <code>Group</code></h5>
+<p>Hier gibt es auch Getter für alle Attribute und Setter für alles außer die Mitglieder.
+ <code>addUser</code>/<code>removeUser</code> sind dazu da, um neue Nutzer der Gruppe und dem Array an Mitgliedern hinzuzufügen oder aus dieser zu entfernen. <br>
+Derselbe Nutzer soll nicht doppelt beitreten können. <br>
+Falls bei <code>removeUser</code> der <code>owner</code> entfernt wird, soll der neue <code>owner</code> der erste Eintrag im Array der Mitglieder werden.
+Gibt es keine verbleibende Mitglieder in der Gruppe, ist der <code>owner</code> <code>null</code>. <br>
+Wird der Owner manuell gesetzt, muss dieser natürlich auch vorher in der Gruppe sein. <br>
+Falls der zu setzende <code>owner</code> kein Mitglied ist, passiert nichts.
+Der Konstruktor dieser Klasse übernimmt, ganz nach der oben beschriebenen Regel, den <code>owner</code> dieser als Parameter.
+Dieser soll, wie gehabt, in das entsprechende Attribut gesetzt werden. Allerdings muss er dann natürlich auch als Mitglied der Gruppe zu <code>members</code> hinzugefügt werden.</p>
+<h5 id="klasseinteraction">Klasse <code>Interaction</code></h5>
+<p>Die Klasse <code>Interaction</code> hat lediglich Getter für alle ihre Attribute. 
+Sonst sind keine Methoden vorhanden.</p>
+<h5 id="klassepicture">Klasse <code>Picture</code></h5>
+<p><code>Picture</code> soll als Methoden alle Getter (einschließlich für <code>data</code>) und zusätzlich noch einen Setter für Thumbnails beinhalten. <br>
+Zudem sollen im Konstruktor die Attribute <code>location</code> und <code>data</code> übergeben werden. 
+Höhe und Breite müssen aus dem <code>data</code> Feld erschlossen werden.
+In der <code>Picture</code> Klasse werden zudem Höhe und Breite anhand der Dimensionen des übergebenen Arrays berechnet. 
+Ein Array <code>int[2][3]</code> hat zum Beispiel Höhe 2 und Breite 3.
+Das <code>data</code> Array ist immer ein valides Array, wessen Teilarrays alle die gleiche Länge haben.</p>
+<h4 id="aufgaben">Aufgaben</h4>
+<h5 id="nutzerausgruppeentfernen">Nutzer aus Gruppe Entfernen</h5>
+<p>In der Klasse <code>Group</code> fehlt noch die Implementierung der Methode <code>void removeUser(User)</code>. Diese soll das übergebene <code>User</code>-Objekt aus dieser Gruppe entfernen.
+Falls dabei der <code>owner</code> der Gruppe entfernt wird, soll der erste im <code>members</code>-Array der neue <code>owner</code> werden.</p>
+<h5 id="nutzeroperationenmitkommentaren">Nutzer-Operationen mit Kommentaren</h5>
+<p>In der Klasse <code>User</code> sind die drei Methoden <code>void interact(Post, int)</code>, <code>void post(String, String)</code> und <code>void comment(Post, String, String)</code> noch leer.
+Implementiere diese, sodass sie das in der Spezifikation geforderte Verhalten aufweisen!</p>
+<h5 id="inhaltderinteractionklasse">Inhalt der <code>Interaction</code>-Klasse</h5>
+<p>Die Klasse <code>Interaction</code> ist noch komplett leer. Fülle diese, wie in der Spezifikation verlangt.</p>
+<h5 id="bilder">Bilder</h5>
+<p>Zur Implementierung der Klasse <code>Picture</code> ist Mark leider gar nicht mehr gekommen. Füge diese Klasse sowie all ihre Verwendungen in <code>User</code> und <code>Group</code>, wie in der Spezifikation (und dem UML-Diagramm) verlangt, hinzu.
+(Du wirst in <code>User</code> und <code>Group</code> also evtl. neue Attribute, Getter und Setter erstellen müssen.)</p>
+<div class="pe-task-0 d-flex"><jhi-programming-exercise-instructions-task-status _nghost-lgj-c125="" class="ng-star-inserted"><div _ngcontent-lgj-c125="" class="guided-tour success">
+    <fa-icon _ngcontent-lgj-c125="" size="lg" class="ng-fa-icon test-icon text-success ng-star-inserted"><svg role="img" aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check fa-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg></fa-icon><!---->
+    <!---->
+    <!---->
+    <span _ngcontent-lgj-c125="" class="task-name ng-star-inserted">Grading</span><!---->
+    <span _ngcontent-lgj-c125="" class="guided-tour test-status--linked text-success ng-star-inserted">6 von 6 Tests bestanden</span><!---->
+    
+    <!---->
+</div>
+</jhi-programming-exercise-instructions-task-status></div>
+<p>Hier werden erst nach der Deadline Ergebnisse angezeigt. Während der Abgabe steht hier also immer 0 von 6 Tests.</p>
+<p><a rel="noopener noreferrer" href="https://bitbucket.ase.in.tum.de/scm/PGDP2223W05H02/pgdp2223w05h02-solution.git">Musterlösung</a></p>
+<p><a rel="noopener noreferrer" href="https://bitbucket.ase.in.tum.de/scm/PGDP2223W05H02/pgdp2223w05h02-tests.git">Tests</a></p>
+<h3 id="faq">FAQ</h3>
+<h5 id="qwofristdasfaq">Q: Wofür ist das FAQ?</h5>
+<p>A: Um häufig gestellte Fragen zu sammeln. Wer trotzdem noch fragt macht Pinguine traurig.</p>
+<h5 id="qwarumschlagenmeinegrouppublicoderturngreentestsfehl">Q: Warum schlagen meine <code>Group</code> Public oder Turn Green Tests fehl?</h5>
+<p>A: Es gab einen Fehler im Template welcher seit dem 18.11. um 13:54 behoben ist. 
+Alle die danach mit der Aufgabe beginnen werden dieses Problem nicht haben. 
+Die Reihenfolge im richtigen Template findet ihr im Spoiler unter dieser Antwort.
+Die Parameter können aber zum Erhalt der entgültigen Funktionalität noch ergänzt werden müssen. 
+Dies ist Teil der Aufgabe. 
+</p><details>
+<summary>Parameter Reihenfolge im korrigierten Template</summary><p></p>
+<pre class="java language-java"><code class="hljs java language-java"><span class="hljs-keyword">public</span> <span class="hljs-title function_">Group</span><span class="hljs-params">(String name, String description, User owner)</span> {
+.
+.
+.
+}
+</code></pre>
+<p></p></details><p></p></div>
+</div><!---->
+<!---->
+</jhi-programming-exercise-instructions><!---->
+            </div><!---->
+            <!---->
+            <jhi-reset-repo-button _ngcontent-lgj-c147="" _nghost-lgj-c116="" class="ng-star-inserted">
+    <!---->
+    <!---->
+<!---->
+</jhi-reset-repo-button><!---->
+            
+            <!---->
+            <jhi-complaint-student-view _ngcontent-lgj-c147="" class="mb-2 mt-2 ms-3 ng-star-inserted" _nghost-lgj-c122=""><div _ngcontent-lgj-c122="" class="ng-star-inserted">
+    <p _ngcontent-lgj-c122="" class="ng-star-inserted">
+        <!---->
+        <span _ngcontent-lgj-c122="" class="ng-star-inserted">Alle Studierenden dürfen genau eine Beschwerde für eine Aufgabe einreichen. Insgesamt sind 1000 Beschwerden in diesem Kurs möglich. Du hast noch <strong style="color:red;">1000</strong> Beschwerden übrig.</span><!---->
+        <!---->
+        <fa-icon _ngcontent-lgj-c122="" class="ng-fa-icon info-icon ng-star-inserted" title="Die Limitierung der Beschwerdenanzahl bezieht sich auf offene und abgelehnte Beschwerden. Wenn deine Beschwerde angenommen wird, wird sie nicht auf deine Gesamtzahl der Beschwerden angerechnet."><svg role="img" aria-labelledby="svg-inline--fa-title-7P5qErDWYDSR" data-prefix="fas" data-icon="circle-info" class="svg-inline--fa fa-circle-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title id="svg-inline--fa-title-7P5qErDWYDSR">Die Limitierung der Beschwerdenanzahl bezieht sich auf offene und abgelehnte Beschwerden. Wenn deine Beschwerde angenommen wird, wird sie nicht auf deine Gesamtzahl der Beschwerden angerechnet.</title><path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path></svg></fa-icon><!---->
+    </p><!---->
+    <div _ngcontent-lgj-c122="" class="mt-4 ng-star-inserted">
+        <button _ngcontent-lgj-c122="" id="complain" class="btn btn-primary not-allowed ng-star-inserted" title="Beschwerde aktuell nicht möglich: maximale Anzahl an Beschwerden ist erreicht oder die Einsichtsperiode ist vorbei." disabled="">
+            Beschwerde einreichen
+        </button><!---->
+        <!---->
+    </div><!---->
+
+    <!---->
+    <!---->
+</div><!---->
+</jhi-complaint-student-view><!---->
+            <!---->
+            <jhi-exercise-hint-button-overlay _ngcontent-lgj-c147="" class="p-3" _nghost-lgj-c143=""><div _ngcontent-lgj-c143="">
+    <!---->
+</div>
+</jhi-exercise-hint-button-overlay>
+            <!---->
+        </div>
+        <div _ngcontent-lgj-c147="" class="col d-flex flex-grow-1 justify-end" style="max-width: min-content;">
+            <!---->
+        </div>
+    </div>
+    <jhi-lti-initializer _ngcontent-lgj-c147=""></jhi-lti-initializer>
+</div><!---->
+</jhi-course-exercise-details><!---->
+        </div>
+    </div>
+    <jhi-notification-popup _nghost-lgj-c106=""><div _ngcontent-lgj-c106="" class="notification-popup-container">
+    <!---->
+</div>
+</jhi-notification-popup>
+    <jhi-footer _nghost-lgj-c105=""><footer _ngcontent-lgj-c105="" id="footer" class="d-none d-md-flex row">
+    <div _ngcontent-lgj-c105="" class="guided-tour-footer-about col-sm-6">
+        <a _ngcontent-lgj-c105="" id="about" jhitranslate="aboutUs" class="footer-text" href="https://artemis.in.tum.de/about">Über</a>
+    </div>
+
+    <div _ngcontent-lgj-c105="" class="col-sm-6 text-md-end">
+        <a _ngcontent-lgj-c105="" id="request-change" jhitranslate="requestChange" target="_blank" class="footer-text" href="https://github.com/ls1intum/Artemis/issues/new/choose">Änderung beantragen</a>
+        <a _ngcontent-lgj-c105="" id="release-notes" jhitranslate="releaseNotes" target="_blank" class="footer-text ms-3" href="https://github.com/ls1intum/Artemis/releases/tag/6.1.7">Versionshinweise</a>
+        <a _ngcontent-lgj-c105="" id="privacy" jhitranslate="legal.privacy.title" class="footer-text ms-3" href="https://artemis.in.tum.de/privacy">Datenschutz</a>
+        <a _ngcontent-lgj-c105="" id="imprint" jhitranslate="legal.imprint.title" class="footer-text ms-3" href="https://artemis.in.tum.de/imprint">Impressum</a>
+    </div>
+
+    <!---->
+</footer>
+
+<footer _ngcontent-lgj-c105="" class="d-flex d-md-none justify-content-between mw-100">
+    <div _ngcontent-lgj-c105="" class="col-auto px-0">
+        <a _ngcontent-lgj-c105="" jhitranslate="aboutUs" class="footer-text" href="https://artemis.in.tum.de/about">Über</a>
+    </div>
+    <div _ngcontent-lgj-c105="" class="col-auto px-0">
+        <a _ngcontent-lgj-c105="" jhitranslate="requestChange" target="_blank" class="footer-text" href="https://github.com/ls1intum/Artemis/issues/new/choose">Änderung beantragen</a>
+    </div>
+    <div _ngcontent-lgj-c105="" class="col-auto px-0">
+        <a _ngcontent-lgj-c105="" jhitranslate="legal.privacy.title" class="footer-text" href="https://artemis.in.tum.de/privacy">Datenschutz</a>
+    </div>
+    <div _ngcontent-lgj-c105="" class="col-auto px-0">
+        <a _ngcontent-lgj-c105="" jhitranslate="legal.imprint.title" class="footer-text" href="https://artemis.in.tum.de/imprint">Impressum</a>
+    </div>
+</footer>
+</jhi-footer>
+</div>
+</jhi-main>
+        <noscript>
+            <h1>You must enable javascript to view this page.</h1>
+        </noscript>
+        <script type="text/javascript">
+            // show an error message if the app loading takes more than 5 sec
+            window.onload = function () {
+                setTimeout(showError, 5000);
+            };
+            function showError() {
+                var errorElm = document.getElementById('loading-error');
+                if (errorElm && errorElm.style) {
+                    errorElm.style.display = 'block';
+                }
+            }
+        </script>
+    <script src="./Aufgabendetails_files/runtime.8f6897c3d2b520f6.js.Download" type="module"></script><script src="./Aufgabendetails_files/polyfills.6dd8c378ec2b5726.js.Download" type="module"></script><script src="./Aufgabendetails_files/main.1fded35bfb6e1746.js.Download" type="module"></script>
+
+</body></html>

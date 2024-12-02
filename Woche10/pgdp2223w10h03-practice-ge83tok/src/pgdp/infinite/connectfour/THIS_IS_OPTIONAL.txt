@@ -1,0 +1,1 @@
+Alles in dem package 'connectfour' ist rein optional und gibt keine Punkte!

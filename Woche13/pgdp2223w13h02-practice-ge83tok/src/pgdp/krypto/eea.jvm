@@ -1,0 +1,4 @@
+
+// TODO: Implementiere ein Programm welches erst eine Zahl e mit READ einliest, dann eine Zahl phi und
+// dann eine Zahl d berechnet für welche gilt (d * e) mod phi == 1. Hierfür bietet sich der erweiterte euklidische
+// Algorithmus an. Am Ende soll d mit WRITE ausgegeben werden.

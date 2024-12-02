@@ -1,0 +1,59 @@
+[ {
+  "class" : {
+    "name" : "Rational",
+    "package" : "pgdp.datatypes.rationals"
+  },
+  "methods": [
+    {
+      "name": "multiplyBy",
+      "modifiers": [ "public" ],
+      "parameters": [ "Rational" ],
+      "returnType" : "void"
+    },
+    {
+      "name": "add",
+      "modifiers": [ "public" ],
+      "parameters": [ "Rational" ],
+      "returnType" : "void"
+    },
+    {
+      "name": "divideBy",
+      "modifiers": [ "public" ],
+      "parameters": [ "Rational" ],
+      "returnType" : "void"
+    },
+    {
+      "name": "subtract",
+      "modifiers": [ "public" ],
+      "parameters": [ "Rational" ],
+      "returnType" : "void"
+    },
+    {
+      "name": "toDouble",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "double"
+    },
+    {
+      "name": "toString",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "String"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "numerator",
+      "type" : "int"
+    }, {
+      "name" : "denominator",
+      "type" : "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "int", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+} ]

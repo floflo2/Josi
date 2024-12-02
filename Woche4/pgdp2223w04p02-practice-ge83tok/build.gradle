@@ -1,0 +1,54 @@
+apply plugin: 'java'
+sourceCompatibility = 17
+version = '1.0.0'
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+def studentOutputDir = sourceSets.main.java.destinationDirectory.get()
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+    test {
+        java {
+            srcDirs = ['test']
+        }
+    }
+}
+
+def forbiddenPackageFolders = [ //(2)
+                                "$studentOutputDir/ch/qos/logback/",
+                                "$studentOutputDir/com/intellij/",
+                                "$studentOutputDir/com/sun/",
+                                "$studentOutputDir/de/tum/in/test/api/",
+                                "$studentOutputDir/java/",
+                                "$studentOutputDir/javax/",
+                                "$studentOutputDir/jdk/",
+                                "$studentOutputDir/net/jqwik/",
+                                "$studentOutputDir/org/assertj/",
+                                "$studentOutputDir/org/apache/",
+                                "$studentOutputDir/org/eclipse/",
+                                "$studentOutputDir/org/gradle/",
+                                "$studentOutputDir/org/jacoco/",
+                                "$studentOutputDir/org/json/",
+                                "$studentOutputDir/org/junit/",
+                                "$studentOutputDir/org/opentest4j/",
+                                "$studentOutputDir/sun/",
+                                "$studentOutputDir/worker/org/gradle/"
+]
+
+test {
+    useJUnitPlatform()
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.9.1'
+    testImplementation 'de.tum.in.ase:artemis-java-test-sandbox:1.10.1'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+}

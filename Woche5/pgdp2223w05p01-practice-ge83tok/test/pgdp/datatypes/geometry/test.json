@@ -1,0 +1,134 @@
+[ {
+  "class" : {
+    "name" : "Circle",
+    "package" : "pgdp.datatypes.geometry"
+  },
+  "methods": [
+    {
+      "name": "getCircumference",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "double"
+    },
+    {
+      "name": "getArea",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "double"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "center",
+      "type" : "Point"
+    }, {
+      "name" : "radius",
+      "type" : "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "Point", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+}, {
+  "class" : {
+    "name" : "Point",
+    "package" : "pgdp.datatypes.geometry"
+  },
+  "methods": [
+    {
+      "name": "getDistanceToOrigin",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "double"
+    },
+    {
+      "name": "getVectorTo",
+      "modifiers": [ "public" ],
+      "parameters": [ "Point" ],
+      "returnType" : "Vector"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "x",
+      "type" : "int"
+    }, {
+      "name" : "y",
+      "type" : "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "int", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+}, {
+  "class" : {
+    "name" : "Rectangle",
+    "package" : "pgdp.datatypes.geometry"
+  },
+  "methods": [
+    {
+      "name": "getCircumference",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "int"
+    },
+    {
+      "name": "getArea",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "int"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "bottomLeftCorner",
+      "type" : "Point"
+    }, {
+      "name" : "width",
+      "type" : "int"
+    }, {
+      "name" : "height",
+      "type" : "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "Point", "int", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+}, {
+  "class" : {
+    "name" : "Vector",
+    "package" : "pgdp.datatypes.geometry"
+  },
+  "methods": [
+    {
+      "name": "getLength",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "double"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "x",
+      "type" : "int"
+    }, {
+      "name" : "y",
+      "type" : "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "int", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+} ]

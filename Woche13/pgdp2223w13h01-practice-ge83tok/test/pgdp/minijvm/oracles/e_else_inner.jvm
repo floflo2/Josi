@@ -1,0 +1,9 @@
+else_branch:
+
+//         b = b - a;
+LOAD 1
+LOAD 0
+SUB
+STORE 1
+
+end_if:

@@ -1,0 +1,214 @@
+[ {
+  "class" : {
+    "name" : "Rectangle",
+    "package" : "pgdp.geometrie",
+    "superclass" : "BaseArea"
+  },
+  "methods" : [ {
+    "name" : "getWidth",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "getHeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "circumference",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "area",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "isSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "boolean"
+  }, {
+    "name" : "toSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "Square"
+  } ],
+  "attributes" : [ {
+    "name" : "width",
+    "modifiers" : [ "private" ],
+    "type" : "double"
+  }, {
+    "name" : "height",
+    "modifiers" : [ "private" ],
+    "type" : "double"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "double", "double" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Circle",
+    "package" : "pgdp.geometrie",
+    "superclass" : "BaseArea"
+  },
+  "methods" : [ {
+    "name" : "circumference",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "area",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "getRadius",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  } ],
+  "attributes" : [ {
+    "name" : "radius",
+    "modifiers" : [ "private" ],
+    "type" : "double"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "double" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Square",
+    "package" : "pgdp.geometrie",
+    "superclass" : "BaseArea"
+  },
+  "methods" : [ {
+    "name" : "getLength",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "circumference",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "area",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "isSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "boolean"
+  }, {
+    "name" : "toSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "Square"
+  } ],
+  "attributes" : [ {
+    "name" : "length",
+    "modifiers" : [ "private" ],
+    "type" : "double"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "double" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Prism",
+    "package" : "pgdp.geometrie"
+  },
+  "methods" : [ {
+    "name" : "getBase",
+    "modifiers" : [ "public" ],
+    "returnType" : "BaseArea"
+  }, {
+    "name" : "getHeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "surface",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "volume",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "isCube",
+    "modifiers" : [ "public" ],
+    "returnType" : "boolean"
+  } ],
+  "attributes" : [ {
+    "name" : "base",
+    "modifiers" : [ "private" ],
+    "type" : "BaseArea"
+  }, {
+    "name" : "height",
+    "modifiers" : [ "private" ],
+    "type" : "double"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "BaseArea", "double" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "BaseArea",
+    "package" : "pgdp.geometrie"
+  },
+  "methods" : [ {
+    "name" : "circumference",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "area",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "isSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "boolean"
+  }, {
+    "name" : "toSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "Square"
+  } ]
+}, {
+  "class" : {
+    "name" : "RegularPolygon",
+    "package" : "pgdp.geometrie",
+    "superclass" : "BaseArea"
+  },
+  "methods" : [ {
+    "name" : "getLength",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "getN",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "circumference",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "area",
+    "modifiers" : [ "public" ],
+    "returnType" : "double"
+  }, {
+    "name" : "isSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "boolean"
+  }, {
+    "name" : "toSquare",
+    "modifiers" : [ "public" ],
+    "returnType" : "Square"
+  } ],
+  "attributes" : [ {
+    "name" : "n",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  }, {
+    "name" : "length",
+    "modifiers" : [ "private" ],
+    "type" : "double"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "int", "double" ]
+  } ]
+} ]

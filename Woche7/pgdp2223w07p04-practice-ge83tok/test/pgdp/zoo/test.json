@@ -1,0 +1,240 @@
+[
+  {
+    "class" : {
+      "name" : "Animal",
+      "package" : "pgdp.zoo",
+      "isAbstract" : true
+    },
+    "attributes" : [
+      {
+        "name" : "name",
+        "modifiers" : [ "private" ],
+        "type" : "String"
+      },
+      {
+        "name" : "age",
+        "modifiers" : [ "private" ],
+        "type" : "int"
+      },
+      {
+        "name" : "weight",
+        "modifiers" : [ "private" ],
+        "type" : "double"
+      }],
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "eat",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "sleep",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "makeSound",
+        "modifiers" : [ "public", "abstract" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Mammal",
+      "package" : "pgdp.zoo",
+      "superclass" : "Animal",
+      "isAbstract" : true
+    },
+    "attributes" : [
+      {
+        "name" : "canNurse",
+        "modifiers" : [ "private" ],
+        "type" : "boolean"
+      }],
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double", "boolean"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "nurseChild",
+        "modifiers" : [ "public" ],
+        "parameters" : [ "Mammal" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Fish",
+      "package" : "pgdp.zoo",
+      "superclass" : "Animal",
+      "interfaces" : [ "CanSwim" ],
+      "isAbstract" : true
+    },
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "swim",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "CanSwim",
+      "package" : "pgdp.zoo",
+
+      "isInterface" : true
+    },
+    "methods" : [
+      {
+        "name" : "swim",
+        "modifiers" : [ "public", "abstract" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Tamable",
+      "package" : "pgdp.zoo",
+      "isInterface" : true
+    },
+    "methods" : [
+      {
+        "name" : "tame",
+        "modifiers" : [ "public", "abstract" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "getPetted",
+        "modifiers" : [ "public", "abstract" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Cat",
+      "package" : "pgdp.zoo",
+      "superclass" : "Mammal",
+      "interfaces" : ["Tamable"],
+    },
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double", "boolean"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "makeSound",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "tame",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "getPetted",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Dolphin",
+      "package" : "pgdp.zoo",
+      "superclass" : "Mammal",
+      "interfaces" : ["CanSwim"],
+    },
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double", "boolean"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "makeSound",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "swim",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Goldfish",
+      "package" : "pgdp.zoo",
+      "superclass" : "Fish",
+      "interfaces" : ["Tamable"]
+    },
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "makeSound",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "tame",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      },
+      {
+        "name" : "getPetted",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      }
+    ]
+  },
+  {
+    "class" : {
+      "name" : "Shark",
+      "package" : "pgdp.zoo",
+      "superclass" : "Fish"
+    },
+    "constructors" : [
+      {
+        "modifiers" : ["public"],
+        "parameters" : ["String", "int", "double"]
+      }
+    ],
+    "methods" : [
+      {
+        "name" : "makeSound",
+        "modifiers" : [ "public" ],
+        "returnType" : "void"
+      }
+    ]
+  }
+]

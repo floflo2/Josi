@@ -1,0 +1,27 @@
+// if (a <= 0) {
+LOAD 0
+CONST 0
+LEQ
+FJUMP first_if_end
+
+//     a = -a;
+LOAD 0
+NEG
+STORE 0
+
+// }
+first_if_end:
+
+// if (b <= 0) {
+LOAD 1
+CONST 0
+LEQ
+FJUMP second_if_end
+
+//     b = -b;
+LOAD 1
+NEG
+STORE 1
+
+// }
+second_if_end:

@@ -1,0 +1,1 @@
+Diese Datei löschen und stattdessen die geforderten Klassen im Package erzeugen!

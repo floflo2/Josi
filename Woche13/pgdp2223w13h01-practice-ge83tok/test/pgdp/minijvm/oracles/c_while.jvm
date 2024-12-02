@@ -1,0 +1,19 @@
+// r = a * b;
+LOAD 0
+LOAD 1
+MUL
+STORE 2
+
+while_start:
+// while (a != b) {
+LOAD 0
+LOAD 1
+NEQ
+FJUMP while_end
+
+...
+
+JUMP while_start
+//     }
+// }
+while_end:

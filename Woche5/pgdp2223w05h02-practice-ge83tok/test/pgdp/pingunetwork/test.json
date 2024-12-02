@@ -1,0 +1,339 @@
+[ {
+  "class" : {
+    "name" : "User",
+    "package" : "pgdp.pingunetwork"
+  },
+  "methods" : [ {
+  	"name" : "addFriend",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "User" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "removeFriend",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "User" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "joinGroup",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Group" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "leaveGroup",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Group" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "interact",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Post", "int" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "post",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String", "String" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "comment",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Post", "String", "String" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "getName",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "String"
+  }, {
+  	"name" : "getDescription",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "String"
+  }, {
+  	"name" : "getFriends",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "User[]"
+  }, {
+  	"name" : "getPosts",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "Post[]"
+  }, {
+  	"name" : "getGroups",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "Group[]"
+  }, {
+  	"name" : "getProfilePicture",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "Picture"
+  }, {
+  	"name" : "setProfilePicture",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Picture" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "setName",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "setDescription",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String" ],
+  	"returnType" : "void"
+  } ],
+  "attributes" : [ {
+    "name" : "name",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "description",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "profilePicture",
+    "modifiers" : [ "private" ],
+    "type" : "Picture"
+  }, {
+    "name" : "friends",
+    "modifiers" : [ "private" ],
+    "type" : "User[]"
+  }, {
+    "name" : "groups",
+    "modifiers" : [ "private" ],
+    "type" : "Group[]"
+  }, {
+    "name" : "posts",
+    "modifiers" : [ "private" ],
+    "type" : "Post[]"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "String", "String", "Picture" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Group",
+    "package" : "pgdp.pingunetwork"
+  },
+  "methods" : [ {
+    "name" : "addUser",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "User" ],
+    "returnType" : "void"
+  }, {
+    "name" : "removeUser",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "User" ],
+    "returnType" : "void"
+  }, {
+  	"name" : "getName",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "String"
+  }, {
+  	"name" : "getDescription",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "String"
+  }, {
+  	"name" : "getOwner",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "User"
+  }, {
+  	"name" : "getPicture",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "Picture"
+  }, {
+  	"name" : "getMembers",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "User[]"
+  }, {
+  	"name" : "setName",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "setDescription",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "setOwner",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "User" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "setPicture",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Picture" ],
+  	"returnType" : "void"
+  } ],
+  "attributes" : [ {
+    "name" : "name",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "description",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "owner",
+    "modifiers" : [ "private" ],
+    "type" : "User"
+  }, {
+    "name" : "picture",
+    "modifiers" : [ "private" ],
+    "type" : "Picture"
+  }, {
+    "name" : "members",
+    "modifiers" : [ "private" ],
+    "type" : "User[]"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "String", "String", "User", "Picture" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Post",
+    "package" : "pgdp.pingunetwork"
+  },
+  "methods" : [ {
+    "name" : "addInteraction",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Interaction" ],
+    "returnType" : "void"
+  }, {
+    "name" : "removeInteraction",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Interaction" ],
+    "returnType" : "void"
+  }, {
+    "name" : "addComment",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Post" ],
+    "returnType" : "void"
+  }, {
+    "name" : "removeComment",
+    "modifiers" : [ "public" ],
+    "parameters" : [ "Post" ],
+    "returnType" : "void"
+  }, {
+  	"name" : "getTitle",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "String"
+  }, {
+  	"name" : "getContent",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "String"
+  }, {
+  	"name" : "getComments",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "Post[]"
+  }, {
+  	"name" : "getInteractions",
+  	"modifiers" : [ "public" ],
+  	"returnType" : "Interaction[]"
+  }, {
+  	"name" : "setTitle",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String" ],
+  	"returnType" : "void"
+  }, {
+  	"name" : "setContent",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "String" ],
+  	"returnType" : "void"
+  } ],
+  "attributes" : [ {
+    "name" : "title",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "content",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "comments",
+    "modifiers" : [ "private" ],
+    "type" : "Post[]"
+  }, {
+    "name" : "interactions",
+    "modifiers" : [ "private" ],
+    "type" : "Interaction[]"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "String", "String" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Picture",
+    "package" : "pgdp.pingunetwork"
+  },
+  "methods" : [ {
+    "name" : "getLocation",
+    "modifiers" : [ "public" ],
+    "returnType" : "String"
+  }, {
+    "name" : "getWidth",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "getHeight",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  }, {
+    "name" : "getData",
+    "modifiers" : [ "public" ],
+    "returnType" : "int[][]"
+  }, {
+  	"name" : "setThumbnails",
+  	"modifiers" : [ "public" ],
+  	"parameters" : [ "Picture[]" ],
+  	"returnType" : "void"
+  } ],
+  "attributes" : [ {
+    "name" : "location",
+    "modifiers" : [ "private" ],
+    "type" : "String"
+  }, {
+    "name" : "width",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  }, {
+    "name" : "height",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  }, {
+    "name" : "thumbnails",
+    "modifiers" : [ "private" ],
+    "type" : "Picture[]"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "String", "int[][]" ]
+  } ]
+}, {
+  "class" : {
+    "name" : "Interaction",
+    "package" : "pgdp.pingunetwork"
+  },
+  "methods" : [ {
+    "name" : "getUser",
+    "modifiers" : [ "public" ],
+    "returnType" : "User"
+  }, {
+    "name" : "getInteractionType",
+    "modifiers" : [ "public" ],
+    "returnType" : "int"
+  } ],
+  "attributes" : [ {
+    "name" : "user",
+    "modifiers" : [ "private" ],
+    "type" : "User"
+  }, {
+    "name" : "interactionType",
+    "modifiers" : [ "private" ],
+    "type" : "int"
+  } ],
+  "constructors" : [ {
+    "modifiers" : [ "public" ],
+    "parameters" : [ "User", "int" ]
+  } ]
+} ]

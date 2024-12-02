@@ -1,0 +1,10 @@
+// r = r / a;
+LOAD 2
+LOAD 0
+DIV
+STORE 2
+
+// write(r);
+LOAD 2
+WRITE
+HALT

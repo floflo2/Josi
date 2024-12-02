@@ -1,0 +1,115 @@
+[ {
+  "class" : {
+    "name" : "Appointment",
+    "package" : "pgdp.datatypes.time"
+  },
+  "methods": [
+    {
+      "name": "toString",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "String"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "date",
+      "type" : "Date"
+    }, {
+      "name" : "start",
+      "type" : "TimeOfDay"
+    }, {
+      "name": "end",
+      "type": "TimeOfDay"
+    }, {
+      "name": "description",
+      "type": "String"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "Date", "TimeOfDay", "TimeOfDay", "String" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+}, {
+  "class" : {
+    "name" : "Date",
+    "package" : "pgdp.datatypes.time"
+  },
+  "methods": [
+    {
+      "name": "toString",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "String"
+    },
+    {
+      "name": "isValidDate",
+      "modifiers": [ "public", "static" ],
+      "parameters": [ "int", "int", "int" ],
+      "returnType" : "boolean"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "day",
+      "type" : "int"
+    }, {
+      "name" : "month",
+      "type" : "int"
+    }, {
+      "name": "year",
+      "type": "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "int", "int", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+}, {
+  "class" : {
+    "name" : "TimeOfDay",
+    "package" : "pgdp.datatypes.time"
+  },
+  "methods": [
+    {
+      "name": "hoursUntil",
+      "modifiers": [ "public" ],
+      "parameters": [ "TimeOfDay" ],
+      "returnType": "double"
+    },
+    {
+      "name": "toString",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "String"
+    },
+    {
+      "name": "toStringTwelveHourClock",
+      "modifiers": [ "public" ],
+      "parameters": [],
+      "returnType" : "String"
+    }
+  ],
+  "attributes" : [
+    {
+      "name" : "hour",
+      "type" : "int"
+    }, {
+      "name" : "minute",
+      "type" : "int"
+    }, {
+      "name": "second",
+      "type": "int"
+    }
+  ],
+  "constructors" : [
+    {
+      "parameters" : [ "int", "int", "int" ],
+      "modifiers": [ "public" ]
+    }
+  ]
+} ]
